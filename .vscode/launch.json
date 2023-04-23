@@ -8,7 +8,7 @@
             "name": "(gdb) Launch",
             "type": "cppdbg",
             "request": "launch",
-            "program": "${workspaceFolder}/build/triangle_/triangle",
+            "program": "${workspaceFolder}/build/01_fundamentals/webgpu-simple-triangle",
             "args": [],
             "stopAtEntry": false,
             "cwd": "${workspaceFolder}/build/",

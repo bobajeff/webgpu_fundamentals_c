@@ -1,132 +1,22 @@
 [
 {
-  "directory": "/home/bobajeff/projects/webgpu_native_exp/LearnWebGPU_WGPU/build",
-  "command": "/usr/bin/cc -DWGPU_TARGET=WGPU_TARGET_LINUX_X11 -I/home/bobajeff/projects/webgpu_native_exp/LearnWebGPU_WGPU/build/_deps/glfw-src/include -isystem /home/bobajeff/projects/webgpu_native_exp/LearnWebGPU_WGPU/wgpu -g -o CMakeFiles/create_surface.dir/create_surface.c.o -c /home/bobajeff/projects/webgpu_native_exp/LearnWebGPU_WGPU/create_surface.c",
-  "file": "/home/bobajeff/projects/webgpu_native_exp/LearnWebGPU_WGPU/create_surface.c"
+  "directory": "/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/build",
+  "command": "/usr/bin/cc -DRESOURCE_DIR=\\\"/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/res\\\" -DWGPU_TARGET=WGPU_TARGET_LINUX_X11 -I/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/build/_deps/glfw-src/include -isystem /home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/wgpu -g -o CMakeFiles/create_surface.dir/create_surface.c.o -c /home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/create_surface.c",
+  "file": "/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/create_surface.c"
 },
 {
-  "directory": "/home/bobajeff/projects/webgpu_native_exp/LearnWebGPU_WGPU/build",
-  "command": "/usr/bin/cc  -I/home/bobajeff/projects/webgpu_native_exp/LearnWebGPU_WGPU -isystem /home/bobajeff/projects/webgpu_native_exp/LearnWebGPU_WGPU/wgpu -g -o CMakeFiles/framework.dir/framework.c.o -c /home/bobajeff/projects/webgpu_native_exp/LearnWebGPU_WGPU/framework.c",
-  "file": "/home/bobajeff/projects/webgpu_native_exp/LearnWebGPU_WGPU/framework.c"
+  "directory": "/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/build",
+  "command": "/usr/bin/cc -DRESOURCE_DIR=\\\"/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/res\\\" -I/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals -isystem /home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/wgpu -g -o CMakeFiles/framework.dir/framework.c.o -c /home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/framework.c",
+  "file": "/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/framework.c"
 },
 {
-  "directory": "/home/bobajeff/projects/webgpu_native_exp/LearnWebGPU_WGPU/build/_deps/glfw-build/src",
-  "command": "/usr/bin/cc -D_DEFAULT_SOURCE -D_GLFW_X11 -I/home/bobajeff/projects/webgpu_native_exp/LearnWebGPU_WGPU/build/_deps/glfw-src/include -I/home/bobajeff/projects/webgpu_native_exp/LearnWebGPU_WGPU/build/_deps/glfw-src/src -I/home/bobajeff/projects/webgpu_native_exp/LearnWebGPU_WGPU/build/_deps/glfw-build/src -g -fPIC -Wall -std=c99 -Wdeclaration-after-statement -o CMakeFiles/glfw.dir/context.c.o -c /home/bobajeff/projects/webgpu_native_exp/LearnWebGPU_WGPU/build/_deps/glfw-src/src/context.c",
-  "file": "/home/bobajeff/projects/webgpu_native_exp/LearnWebGPU_WGPU/build/_deps/glfw-src/src/context.c"
+  "directory": "/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/build/triangle_",
+  "command": "/usr/bin/cc -DRESOURCE_DIR=\\\"/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/res\\\" -I/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/build/_deps/glfw-src/include -I/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals -isystem /home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/wgpu -g -o CMakeFiles/triangle.dir/main.c.o -c /home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/triangle_/main.c",
+  "file": "/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/triangle_/main.c"
 },
 {
-  "directory": "/home/bobajeff/projects/webgpu_native_exp/LearnWebGPU_WGPU/build/_deps/glfw-build/src",
-  "command": "/usr/bin/cc -D_DEFAULT_SOURCE -D_GLFW_X11 -I/home/bobajeff/projects/webgpu_native_exp/LearnWebGPU_WGPU/build/_deps/glfw-src/include -I/home/bobajeff/projects/webgpu_native_exp/LearnWebGPU_WGPU/build/_deps/glfw-src/src -I/home/bobajeff/projects/webgpu_native_exp/LearnWebGPU_WGPU/build/_deps/glfw-build/src -g -fPIC -Wall -std=c99 -Wdeclaration-after-statement -o CMakeFiles/glfw.dir/init.c.o -c /home/bobajeff/projects/webgpu_native_exp/LearnWebGPU_WGPU/build/_deps/glfw-src/src/init.c",
-  "file": "/home/bobajeff/projects/webgpu_native_exp/LearnWebGPU_WGPU/build/_deps/glfw-src/src/init.c"
-},
-{
-  "directory": "/home/bobajeff/projects/webgpu_native_exp/LearnWebGPU_WGPU/build/_deps/glfw-build/src",
-  "command": "/usr/bin/cc -D_DEFAULT_SOURCE -D_GLFW_X11 -I/home/bobajeff/projects/webgpu_native_exp/LearnWebGPU_WGPU/build/_deps/glfw-src/include -I/home/bobajeff/projects/webgpu_native_exp/LearnWebGPU_WGPU/build/_deps/glfw-src/src -I/home/bobajeff/projects/webgpu_native_exp/LearnWebGPU_WGPU/build/_deps/glfw-build/src -g -fPIC -Wall -std=c99 -Wdeclaration-after-statement -o CMakeFiles/glfw.dir/input.c.o -c /home/bobajeff/projects/webgpu_native_exp/LearnWebGPU_WGPU/build/_deps/glfw-src/src/input.c",
-  "file": "/home/bobajeff/projects/webgpu_native_exp/LearnWebGPU_WGPU/build/_deps/glfw-src/src/input.c"
-},
-{
-  "directory": "/home/bobajeff/projects/webgpu_native_exp/LearnWebGPU_WGPU/build/_deps/glfw-build/src",
-  "command": "/usr/bin/cc -D_DEFAULT_SOURCE -D_GLFW_X11 -I/home/bobajeff/projects/webgpu_native_exp/LearnWebGPU_WGPU/build/_deps/glfw-src/include -I/home/bobajeff/projects/webgpu_native_exp/LearnWebGPU_WGPU/build/_deps/glfw-src/src -I/home/bobajeff/projects/webgpu_native_exp/LearnWebGPU_WGPU/build/_deps/glfw-build/src -g -fPIC -Wall -std=c99 -Wdeclaration-after-statement -o CMakeFiles/glfw.dir/monitor.c.o -c /home/bobajeff/projects/webgpu_native_exp/LearnWebGPU_WGPU/build/_deps/glfw-src/src/monitor.c",
-  "file": "/home/bobajeff/projects/webgpu_native_exp/LearnWebGPU_WGPU/build/_deps/glfw-src/src/monitor.c"
-},
-{
-  "directory": "/home/bobajeff/projects/webgpu_native_exp/LearnWebGPU_WGPU/build/_deps/glfw-build/src",
-  "command": "/usr/bin/cc -D_DEFAULT_SOURCE -D_GLFW_X11 -I/home/bobajeff/projects/webgpu_native_exp/LearnWebGPU_WGPU/build/_deps/glfw-src/include -I/home/bobajeff/projects/webgpu_native_exp/LearnWebGPU_WGPU/build/_deps/glfw-src/src -I/home/bobajeff/projects/webgpu_native_exp/LearnWebGPU_WGPU/build/_deps/glfw-build/src -g -fPIC -Wall -std=c99 -Wdeclaration-after-statement -o CMakeFiles/glfw.dir/platform.c.o -c /home/bobajeff/projects/webgpu_native_exp/LearnWebGPU_WGPU/build/_deps/glfw-src/src/platform.c",
-  "file": "/home/bobajeff/projects/webgpu_native_exp/LearnWebGPU_WGPU/build/_deps/glfw-src/src/platform.c"
-},
-{
-  "directory": "/home/bobajeff/projects/webgpu_native_exp/LearnWebGPU_WGPU/build/_deps/glfw-build/src",
-  "command": "/usr/bin/cc -D_DEFAULT_SOURCE -D_GLFW_X11 -I/home/bobajeff/projects/webgpu_native_exp/LearnWebGPU_WGPU/build/_deps/glfw-src/include -I/home/bobajeff/projects/webgpu_native_exp/LearnWebGPU_WGPU/build/_deps/glfw-src/src -I/home/bobajeff/projects/webgpu_native_exp/LearnWebGPU_WGPU/build/_deps/glfw-build/src -g -fPIC -Wall -std=c99 -Wdeclaration-after-statement -o CMakeFiles/glfw.dir/vulkan.c.o -c /home/bobajeff/projects/webgpu_native_exp/LearnWebGPU_WGPU/build/_deps/glfw-src/src/vulkan.c",
-  "file": "/home/bobajeff/projects/webgpu_native_exp/LearnWebGPU_WGPU/build/_deps/glfw-src/src/vulkan.c"
-},
-{
-  "directory": "/home/bobajeff/projects/webgpu_native_exp/LearnWebGPU_WGPU/build/_deps/glfw-build/src",
-  "command": "/usr/bin/cc -D_DEFAULT_SOURCE -D_GLFW_X11 -I/home/bobajeff/projects/webgpu_native_exp/LearnWebGPU_WGPU/build/_deps/glfw-src/include -I/home/bobajeff/projects/webgpu_native_exp/LearnWebGPU_WGPU/build/_deps/glfw-src/src -I/home/bobajeff/projects/webgpu_native_exp/LearnWebGPU_WGPU/build/_deps/glfw-build/src -g -fPIC -Wall -std=c99 -Wdeclaration-after-statement -o CMakeFiles/glfw.dir/window.c.o -c /home/bobajeff/projects/webgpu_native_exp/LearnWebGPU_WGPU/build/_deps/glfw-src/src/window.c",
-  "file": "/home/bobajeff/projects/webgpu_native_exp/LearnWebGPU_WGPU/build/_deps/glfw-src/src/window.c"
-},
-{
-  "directory": "/home/bobajeff/projects/webgpu_native_exp/LearnWebGPU_WGPU/build/_deps/glfw-build/src",
-  "command": "/usr/bin/cc -D_DEFAULT_SOURCE -D_GLFW_X11 -I/home/bobajeff/projects/webgpu_native_exp/LearnWebGPU_WGPU/build/_deps/glfw-src/include -I/home/bobajeff/projects/webgpu_native_exp/LearnWebGPU_WGPU/build/_deps/glfw-src/src -I/home/bobajeff/projects/webgpu_native_exp/LearnWebGPU_WGPU/build/_deps/glfw-build/src -g -fPIC -Wall -std=c99 -Wdeclaration-after-statement -o CMakeFiles/glfw.dir/egl_context.c.o -c /home/bobajeff/projects/webgpu_native_exp/LearnWebGPU_WGPU/build/_deps/glfw-src/src/egl_context.c",
-  "file": "/home/bobajeff/projects/webgpu_native_exp/LearnWebGPU_WGPU/build/_deps/glfw-src/src/egl_context.c"
-},
-{
-  "directory": "/home/bobajeff/projects/webgpu_native_exp/LearnWebGPU_WGPU/build/_deps/glfw-build/src",
-  "command": "/usr/bin/cc -D_DEFAULT_SOURCE -D_GLFW_X11 -I/home/bobajeff/projects/webgpu_native_exp/LearnWebGPU_WGPU/build/_deps/glfw-src/include -I/home/bobajeff/projects/webgpu_native_exp/LearnWebGPU_WGPU/build/_deps/glfw-src/src -I/home/bobajeff/projects/webgpu_native_exp/LearnWebGPU_WGPU/build/_deps/glfw-build/src -g -fPIC -Wall -std=c99 -Wdeclaration-after-statement -o CMakeFiles/glfw.dir/osmesa_context.c.o -c /home/bobajeff/projects/webgpu_native_exp/LearnWebGPU_WGPU/build/_deps/glfw-src/src/osmesa_context.c",
-  "file": "/home/bobajeff/projects/webgpu_native_exp/LearnWebGPU_WGPU/build/_deps/glfw-src/src/osmesa_context.c"
-},
-{
-  "directory": "/home/bobajeff/projects/webgpu_native_exp/LearnWebGPU_WGPU/build/_deps/glfw-build/src",
-  "command": "/usr/bin/cc -D_DEFAULT_SOURCE -D_GLFW_X11 -I/home/bobajeff/projects/webgpu_native_exp/LearnWebGPU_WGPU/build/_deps/glfw-src/include -I/home/bobajeff/projects/webgpu_native_exp/LearnWebGPU_WGPU/build/_deps/glfw-src/src -I/home/bobajeff/projects/webgpu_native_exp/LearnWebGPU_WGPU/build/_deps/glfw-build/src -g -fPIC -Wall -std=c99 -Wdeclaration-after-statement -o CMakeFiles/glfw.dir/null_init.c.o -c /home/bobajeff/projects/webgpu_native_exp/LearnWebGPU_WGPU/build/_deps/glfw-src/src/null_init.c",
-  "file": "/home/bobajeff/projects/webgpu_native_exp/LearnWebGPU_WGPU/build/_deps/glfw-src/src/null_init.c"
-},
-{
-  "directory": "/home/bobajeff/projects/webgpu_native_exp/LearnWebGPU_WGPU/build/_deps/glfw-build/src",
-  "command": "/usr/bin/cc -D_DEFAULT_SOURCE -D_GLFW_X11 -I/home/bobajeff/projects/webgpu_native_exp/LearnWebGPU_WGPU/build/_deps/glfw-src/include -I/home/bobajeff/projects/webgpu_native_exp/LearnWebGPU_WGPU/build/_deps/glfw-src/src -I/home/bobajeff/projects/webgpu_native_exp/LearnWebGPU_WGPU/build/_deps/glfw-build/src -g -fPIC -Wall -std=c99 -Wdeclaration-after-statement -o CMakeFiles/glfw.dir/null_monitor.c.o -c /home/bobajeff/projects/webgpu_native_exp/LearnWebGPU_WGPU/build/_deps/glfw-src/src/null_monitor.c",
-  "file": "/home/bobajeff/projects/webgpu_native_exp/LearnWebGPU_WGPU/build/_deps/glfw-src/src/null_monitor.c"
-},
-{
-  "directory": "/home/bobajeff/projects/webgpu_native_exp/LearnWebGPU_WGPU/build/_deps/glfw-build/src",
-  "command": "/usr/bin/cc -D_DEFAULT_SOURCE -D_GLFW_X11 -I/home/bobajeff/projects/webgpu_native_exp/LearnWebGPU_WGPU/build/_deps/glfw-src/include -I/home/bobajeff/projects/webgpu_native_exp/LearnWebGPU_WGPU/build/_deps/glfw-src/src -I/home/bobajeff/projects/webgpu_native_exp/LearnWebGPU_WGPU/build/_deps/glfw-build/src -g -fPIC -Wall -std=c99 -Wdeclaration-after-statement -o CMakeFiles/glfw.dir/null_window.c.o -c /home/bobajeff/projects/webgpu_native_exp/LearnWebGPU_WGPU/build/_deps/glfw-src/src/null_window.c",
-  "file": "/home/bobajeff/projects/webgpu_native_exp/LearnWebGPU_WGPU/build/_deps/glfw-src/src/null_window.c"
-},
-{
-  "directory": "/home/bobajeff/projects/webgpu_native_exp/LearnWebGPU_WGPU/build/_deps/glfw-build/src",
-  "command": "/usr/bin/cc -D_DEFAULT_SOURCE -D_GLFW_X11 -I/home/bobajeff/projects/webgpu_native_exp/LearnWebGPU_WGPU/build/_deps/glfw-src/include -I/home/bobajeff/projects/webgpu_native_exp/LearnWebGPU_WGPU/build/_deps/glfw-src/src -I/home/bobajeff/projects/webgpu_native_exp/LearnWebGPU_WGPU/build/_deps/glfw-build/src -g -fPIC -Wall -std=c99 -Wdeclaration-after-statement -o CMakeFiles/glfw.dir/null_joystick.c.o -c /home/bobajeff/projects/webgpu_native_exp/LearnWebGPU_WGPU/build/_deps/glfw-src/src/null_joystick.c",
-  "file": "/home/bobajeff/projects/webgpu_native_exp/LearnWebGPU_WGPU/build/_deps/glfw-src/src/null_joystick.c"
-},
-{
-  "directory": "/home/bobajeff/projects/webgpu_native_exp/LearnWebGPU_WGPU/build/_deps/glfw-build/src",
-  "command": "/usr/bin/cc -D_DEFAULT_SOURCE -D_GLFW_X11 -I/home/bobajeff/projects/webgpu_native_exp/LearnWebGPU_WGPU/build/_deps/glfw-src/include -I/home/bobajeff/projects/webgpu_native_exp/LearnWebGPU_WGPU/build/_deps/glfw-src/src -I/home/bobajeff/projects/webgpu_native_exp/LearnWebGPU_WGPU/build/_deps/glfw-build/src -g -fPIC -Wall -std=c99 -o CMakeFiles/glfw.dir/posix_module.c.o -c /home/bobajeff/projects/webgpu_native_exp/LearnWebGPU_WGPU/build/_deps/glfw-src/src/posix_module.c",
-  "file": "/home/bobajeff/projects/webgpu_native_exp/LearnWebGPU_WGPU/build/_deps/glfw-src/src/posix_module.c"
-},
-{
-  "directory": "/home/bobajeff/projects/webgpu_native_exp/LearnWebGPU_WGPU/build/_deps/glfw-build/src",
-  "command": "/usr/bin/cc -D_DEFAULT_SOURCE -D_GLFW_X11 -I/home/bobajeff/projects/webgpu_native_exp/LearnWebGPU_WGPU/build/_deps/glfw-src/include -I/home/bobajeff/projects/webgpu_native_exp/LearnWebGPU_WGPU/build/_deps/glfw-src/src -I/home/bobajeff/projects/webgpu_native_exp/LearnWebGPU_WGPU/build/_deps/glfw-build/src -g -fPIC -Wall -std=c99 -o CMakeFiles/glfw.dir/posix_time.c.o -c /home/bobajeff/projects/webgpu_native_exp/LearnWebGPU_WGPU/build/_deps/glfw-src/src/posix_time.c",
-  "file": "/home/bobajeff/projects/webgpu_native_exp/LearnWebGPU_WGPU/build/_deps/glfw-src/src/posix_time.c"
-},
-{
-  "directory": "/home/bobajeff/projects/webgpu_native_exp/LearnWebGPU_WGPU/build/_deps/glfw-build/src",
-  "command": "/usr/bin/cc -D_DEFAULT_SOURCE -D_GLFW_X11 -I/home/bobajeff/projects/webgpu_native_exp/LearnWebGPU_WGPU/build/_deps/glfw-src/include -I/home/bobajeff/projects/webgpu_native_exp/LearnWebGPU_WGPU/build/_deps/glfw-src/src -I/home/bobajeff/projects/webgpu_native_exp/LearnWebGPU_WGPU/build/_deps/glfw-build/src -g -fPIC -Wall -std=c99 -o CMakeFiles/glfw.dir/posix_thread.c.o -c /home/bobajeff/projects/webgpu_native_exp/LearnWebGPU_WGPU/build/_deps/glfw-src/src/posix_thread.c",
-  "file": "/home/bobajeff/projects/webgpu_native_exp/LearnWebGPU_WGPU/build/_deps/glfw-src/src/posix_thread.c"
-},
-{
-  "directory": "/home/bobajeff/projects/webgpu_native_exp/LearnWebGPU_WGPU/build/_deps/glfw-build/src",
-  "command": "/usr/bin/cc -D_DEFAULT_SOURCE -D_GLFW_X11 -I/home/bobajeff/projects/webgpu_native_exp/LearnWebGPU_WGPU/build/_deps/glfw-src/include -I/home/bobajeff/projects/webgpu_native_exp/LearnWebGPU_WGPU/build/_deps/glfw-src/src -I/home/bobajeff/projects/webgpu_native_exp/LearnWebGPU_WGPU/build/_deps/glfw-build/src -g -fPIC -Wall -std=c99 -o CMakeFiles/glfw.dir/x11_init.c.o -c /home/bobajeff/projects/webgpu_native_exp/LearnWebGPU_WGPU/build/_deps/glfw-src/src/x11_init.c",
-  "file": "/home/bobajeff/projects/webgpu_native_exp/LearnWebGPU_WGPU/build/_deps/glfw-src/src/x11_init.c"
-},
-{
-  "directory": "/home/bobajeff/projects/webgpu_native_exp/LearnWebGPU_WGPU/build/_deps/glfw-build/src",
-  "command": "/usr/bin/cc -D_DEFAULT_SOURCE -D_GLFW_X11 -I/home/bobajeff/projects/webgpu_native_exp/LearnWebGPU_WGPU/build/_deps/glfw-src/include -I/home/bobajeff/projects/webgpu_native_exp/LearnWebGPU_WGPU/build/_deps/glfw-src/src -I/home/bobajeff/projects/webgpu_native_exp/LearnWebGPU_WGPU/build/_deps/glfw-build/src -g -fPIC -Wall -std=c99 -o CMakeFiles/glfw.dir/x11_monitor.c.o -c /home/bobajeff/projects/webgpu_native_exp/LearnWebGPU_WGPU/build/_deps/glfw-src/src/x11_monitor.c",
-  "file": "/home/bobajeff/projects/webgpu_native_exp/LearnWebGPU_WGPU/build/_deps/glfw-src/src/x11_monitor.c"
-},
-{
-  "directory": "/home/bobajeff/projects/webgpu_native_exp/LearnWebGPU_WGPU/build/_deps/glfw-build/src",
-  "command": "/usr/bin/cc -D_DEFAULT_SOURCE -D_GLFW_X11 -I/home/bobajeff/projects/webgpu_native_exp/LearnWebGPU_WGPU/build/_deps/glfw-src/include -I/home/bobajeff/projects/webgpu_native_exp/LearnWebGPU_WGPU/build/_deps/glfw-src/src -I/home/bobajeff/projects/webgpu_native_exp/LearnWebGPU_WGPU/build/_deps/glfw-build/src -g -fPIC -Wall -std=c99 -o CMakeFiles/glfw.dir/x11_window.c.o -c /home/bobajeff/projects/webgpu_native_exp/LearnWebGPU_WGPU/build/_deps/glfw-src/src/x11_window.c",
-  "file": "/home/bobajeff/projects/webgpu_native_exp/LearnWebGPU_WGPU/build/_deps/glfw-src/src/x11_window.c"
-},
-{
-  "directory": "/home/bobajeff/projects/webgpu_native_exp/LearnWebGPU_WGPU/build/_deps/glfw-build/src",
-  "command": "/usr/bin/cc -D_DEFAULT_SOURCE -D_GLFW_X11 -I/home/bobajeff/projects/webgpu_native_exp/LearnWebGPU_WGPU/build/_deps/glfw-src/include -I/home/bobajeff/projects/webgpu_native_exp/LearnWebGPU_WGPU/build/_deps/glfw-src/src -I/home/bobajeff/projects/webgpu_native_exp/LearnWebGPU_WGPU/build/_deps/glfw-build/src -g -fPIC -Wall -std=c99 -o CMakeFiles/glfw.dir/xkb_unicode.c.o -c /home/bobajeff/projects/webgpu_native_exp/LearnWebGPU_WGPU/build/_deps/glfw-src/src/xkb_unicode.c",
-  "file": "/home/bobajeff/projects/webgpu_native_exp/LearnWebGPU_WGPU/build/_deps/glfw-src/src/xkb_unicode.c"
-},
-{
-  "directory": "/home/bobajeff/projects/webgpu_native_exp/LearnWebGPU_WGPU/build/_deps/glfw-build/src",
-  "command": "/usr/bin/cc -D_DEFAULT_SOURCE -D_GLFW_X11 -I/home/bobajeff/projects/webgpu_native_exp/LearnWebGPU_WGPU/build/_deps/glfw-src/include -I/home/bobajeff/projects/webgpu_native_exp/LearnWebGPU_WGPU/build/_deps/glfw-src/src -I/home/bobajeff/projects/webgpu_native_exp/LearnWebGPU_WGPU/build/_deps/glfw-build/src -g -fPIC -Wall -std=c99 -o CMakeFiles/glfw.dir/glx_context.c.o -c /home/bobajeff/projects/webgpu_native_exp/LearnWebGPU_WGPU/build/_deps/glfw-src/src/glx_context.c",
-  "file": "/home/bobajeff/projects/webgpu_native_exp/LearnWebGPU_WGPU/build/_deps/glfw-src/src/glx_context.c"
-},
-{
-  "directory": "/home/bobajeff/projects/webgpu_native_exp/LearnWebGPU_WGPU/build/_deps/glfw-build/src",
-  "command": "/usr/bin/cc -D_DEFAULT_SOURCE -D_GLFW_X11 -I/home/bobajeff/projects/webgpu_native_exp/LearnWebGPU_WGPU/build/_deps/glfw-src/include -I/home/bobajeff/projects/webgpu_native_exp/LearnWebGPU_WGPU/build/_deps/glfw-src/src -I/home/bobajeff/projects/webgpu_native_exp/LearnWebGPU_WGPU/build/_deps/glfw-build/src -g -fPIC -Wall -std=c99 -o CMakeFiles/glfw.dir/linux_joystick.c.o -c /home/bobajeff/projects/webgpu_native_exp/LearnWebGPU_WGPU/build/_deps/glfw-src/src/linux_joystick.c",
-  "file": "/home/bobajeff/projects/webgpu_native_exp/LearnWebGPU_WGPU/build/_deps/glfw-src/src/linux_joystick.c"
-},
-{
-  "directory": "/home/bobajeff/projects/webgpu_native_exp/LearnWebGPU_WGPU/build/_deps/glfw-build/src",
-  "command": "/usr/bin/cc -D_DEFAULT_SOURCE -D_GLFW_X11 -I/home/bobajeff/projects/webgpu_native_exp/LearnWebGPU_WGPU/build/_deps/glfw-src/include -I/home/bobajeff/projects/webgpu_native_exp/LearnWebGPU_WGPU/build/_deps/glfw-src/src -I/home/bobajeff/projects/webgpu_native_exp/LearnWebGPU_WGPU/build/_deps/glfw-build/src -g -fPIC -Wall -std=c99 -o CMakeFiles/glfw.dir/posix_poll.c.o -c /home/bobajeff/projects/webgpu_native_exp/LearnWebGPU_WGPU/build/_deps/glfw-src/src/posix_poll.c",
-  "file": "/home/bobajeff/projects/webgpu_native_exp/LearnWebGPU_WGPU/build/_deps/glfw-src/src/posix_poll.c"
-},
-{
-  "directory": "/home/bobajeff/projects/webgpu_native_exp/LearnWebGPU_WGPU/build/triangle_",
-  "command": "/usr/bin/cc -DRESOURCE_DIR=\\\"/home/bobajeff/projects/webgpu_native_exp/LearnWebGPU_WGPU/res\\\" -I/home/bobajeff/projects/webgpu_native_exp/LearnWebGPU_WGPU/build/_deps/glfw-src/include -I/home/bobajeff/projects/webgpu_native_exp/LearnWebGPU_WGPU -isystem /home/bobajeff/projects/webgpu_native_exp/LearnWebGPU_WGPU/wgpu -g -o CMakeFiles/triangle.dir/main.c.o -c /home/bobajeff/projects/webgpu_native_exp/LearnWebGPU_WGPU/triangle_/main.c",
-  "file": "/home/bobajeff/projects/webgpu_native_exp/LearnWebGPU_WGPU/triangle_/main.c"
+  "directory": "/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/build/01_fundamentals",
+  "command": "/usr/bin/cc -DRESOURCE_DIR=\\\"/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/res\\\" -I/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/build/_deps/glfw-src/include -I/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals -isystem /home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/wgpu -g -o CMakeFiles/webgpu-simple-triangle.dir/webgpu-simple-triangle.c.o -c /home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/01_fundamentals/webgpu-simple-triangle.c",
+  "file": "/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/01_fundamentals/webgpu-simple-triangle.c"
 }
 ]

@@ -9,6 +9,3 @@ add_executable(triangle
 main.c
 )
 target_link_libraries(triangle PRIVATE glfw wgpu_native create_surface framework)
-target_compile_definitions(triangle PRIVATE
-    RESOURCE_DIR="${CMAKE_SOURCE_DIR}/res"
-)

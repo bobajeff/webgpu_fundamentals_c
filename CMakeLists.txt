@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.0...3.25)
 project(
-	LearnWebGPU # name of the project, which will also be the name of the visual studio solution if you use it
+	WebGPU_Fundamentals # name of the project, which will also be the name of the visual studio solution if you use it
 	VERSION 0.1.0 # any version number
 	LANGUAGES CXX C # programming languages used by the project
 )
@@ -19,6 +19,13 @@ FetchContent_Declare(
         GIT_REPOSITORY https://github.com/glfw/glfw
 )
 FetchContent_MakeAvailable(glfw)
+
+#--------------CGLM
+FetchContent_Declare(
+        cglm
+        GIT_REPOSITORY https://github.com/recp/cglm
+)
+FetchContent_MakeAvailable(cglm)
 
 #--------------WGPU_NATIVE
 # assumes wgpu_native is downloaded and extracted to the root source directory and renamed 'wgpu' 
@@ -60,4 +67,7 @@ framework.c
 target_link_libraries(framework PRIVATE wgpu_native)
 target_include_directories(framework PUBLIC ${CMAKE_SOURCE_DIR})
 
+add_compile_definitions(RESOURCE_DIR="${CMAKE_SOURCE_DIR}/res")
+
 add_subdirectory(triangle_)
+add_subdirectory(01_fundamentals)
