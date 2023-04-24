@@ -9,3 +9,9 @@ add_executable(webgpu-simple-triangle
 webgpu-simple-triangle.c
 )
 target_link_libraries(webgpu-simple-triangle PRIVATE glfw wgpu_native create_surface framework)
+
+#--------------WEBGPU-SIMPLE-COMPUTE
+add_executable(webgpu-simple-compute
+webgpu-simple-compute.c
+)
+target_link_libraries(webgpu-simple-compute PRIVATE glfw wgpu_native create_surface framework)
