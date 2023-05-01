@@ -71,3 +71,4 @@ add_compile_definitions(RESOURCE_DIR="${CMAKE_SOURCE_DIR}/res")
 
 add_subdirectory(triangle_)
 add_subdirectory(01_fundamentals)
+add_subdirectory(02_inter-stage-variables)

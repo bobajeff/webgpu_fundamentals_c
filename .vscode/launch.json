@@ -8,7 +8,7 @@
             "name": "(gdb) Launch",
             "type": "cppdbg",
             "request": "launch",
-            "program": "${workspaceFolder}/build/01_fundamentals/webgpu-simple-compute",
+            "program": "${workspaceFolder}/build/02_inter-stage-variables/webgpu-inter-stage-variables-triangle",
             "args": [],
             "stopAtEntry": false,
             "cwd": "${workspaceFolder}/build/",
