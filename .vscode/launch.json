@@ -8,7 +8,7 @@
             "name": "(gdb) Launch",
             "type": "cppdbg",
             "request": "launch",
-            "program": "${workspaceFolder}/build/02_inter-stage-variables/webgpu-inter-stage-variables-triangle",
+            "program": "${workspaceFolder}/build/02_inter-stage-variables/inter_stage_variables_connect_by_location",
             "args": [],
             "stopAtEntry": false,
             "cwd": "${workspaceFolder}/build/",
