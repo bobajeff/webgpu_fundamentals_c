@@ -8,7 +8,7 @@
             "name": "(gdb) Launch",
             "type": "cppdbg",
             "request": "launch",
-            "program": "${workspaceFolder}/build/02_inter-stage-variables/inter_stage_variables_connect_by_location",
+            "program": "${workspaceFolder}/build/02_inter-stage-variables/inter_stage_variables_connect_by_location_part2",
             "args": [],
             "stopAtEntry": false,
             "cwd": "${workspaceFolder}/build/",
