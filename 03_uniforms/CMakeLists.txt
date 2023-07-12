@@ -4,8 +4,15 @@ project(
 	VERSION 0.1.0 # any version number
 	LANGUAGES CXX C # programming languages used by the project
 )
+
 #--------------WEBGPU-SIMPLE-TRIANGLE-UNIFORMS
 add_executable(webgpu-simple-triangle-uniforms
 webgpu-simple-triangle-uniforms.c
 )
 target_link_libraries(webgpu-simple-triangle-uniforms PRIVATE glfw wgpu_native create_surface framework)
+
+#--------------WEBGPU-SIMPLE-TRIANGLE-UNIFORMS-MULTIPLE
+add_executable(webgpu-simple-triangle-uniforms-multiple
+webgpu-simple-triangle-uniforms-multiple.c
+)
+target_link_libraries(webgpu-simple-triangle-uniforms-multiple PRIVATE glfw wgpu_native create_surface framework)
