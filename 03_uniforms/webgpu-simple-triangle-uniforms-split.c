@@ -27,13 +27,13 @@ float rand_(float min, float max) {
  
 // create a struct to hold the values for the uniforms
 typedef struct OurStruct {
-    float color[4];
-	float offset[2];
-    float padding[2];
+  float color[4];
+  float offset[2];
+  float padding[2];
 } OurStruct;
 
 typedef struct OtherStruct {
-	float scale[2];
+    float scale[2];
 } OtherStruct;
 
 typedef struct objectInfo {
