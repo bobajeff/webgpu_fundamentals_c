@@ -8,7 +8,7 @@
             "name": "(gdb) Launch",
             "type": "cppdbg",
             "request": "launch",
-            "program": "${workspaceFolder}/build/03_uniforms/webgpu-simple-triangle-uniforms-multiple",
+            "program": "${workspaceFolder}/build/03_uniforms/webgpu-simple-triangle-uniforms-split",
             "args": [],
             "stopAtEntry": false,
             "cwd": "${workspaceFolder}/build/",

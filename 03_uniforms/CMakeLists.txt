@@ -16,3 +16,9 @@ add_executable(webgpu-simple-triangle-uniforms-multiple
 webgpu-simple-triangle-uniforms-multiple.c
 )
 target_link_libraries(webgpu-simple-triangle-uniforms-multiple PRIVATE glfw wgpu_native create_surface framework)
+
+#--------------WEBGPU-SIMPLE-TRIANGLE-UNIFORMS-SPLIT
+add_executable(webgpu-simple-triangle-uniforms-split
+webgpu-simple-triangle-uniforms-split.c
+)
+target_link_libraries(webgpu-simple-triangle-uniforms-split PRIVATE glfw wgpu_native create_surface framework)
