@@ -8,7 +8,7 @@
             "name": "(gdb) Launch",
             "type": "cppdbg",
             "request": "launch",
-            "program": "${workspaceFolder}/build/04_storage-buffers/webgpu-simple-triangle-storage-split-minimal-changes",
+            "program": "${workspaceFolder}/build/04_storage-buffers/webgpu-simple-triangle-storage-buffer-split",
             "args": [],
             "stopAtEntry": false,
             "cwd": "${workspaceFolder}/build/",

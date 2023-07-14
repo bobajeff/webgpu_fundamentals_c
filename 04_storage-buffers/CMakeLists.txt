@@ -9,3 +9,9 @@ add_executable(webgpu-simple-triangle-storage-split-minimal-changes
 webgpu-simple-triangle-storage-split-minimal-changes.c
 )
 target_link_libraries(webgpu-simple-triangle-storage-split-minimal-changes PRIVATE glfw wgpu_native create_surface framework)
+
+#--------------WEBGPU-SIMPLE-TRIANGLE-STORAGE-BUFFER-SPLIT
+add_executable(webgpu-simple-triangle-storage-buffer-split
+webgpu-simple-triangle-storage-buffer-split.c
+)
+target_link_libraries(webgpu-simple-triangle-storage-buffer-split PRIVATE glfw wgpu_native create_surface framework)
