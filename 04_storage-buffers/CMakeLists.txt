@@ -15,3 +15,9 @@ add_executable(webgpu-simple-triangle-storage-buffer-split
 webgpu-simple-triangle-storage-buffer-split.c
 )
 target_link_libraries(webgpu-simple-triangle-storage-buffer-split PRIVATE glfw wgpu_native create_surface framework)
+
+#--------------WEBGPU-STORAGE-BUFFER-VERTICES
+add_executable(webgpu-storage-buffer-vertices
+webgpu-storage-buffer-vertices.c
+)
+target_link_libraries(webgpu-storage-buffer-vertices PRIVATE glfw wgpu_native create_surface framework)
