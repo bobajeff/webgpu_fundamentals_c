@@ -281,7 +281,7 @@ WGPUQueue queue = wgpuDeviceGetQueue(device);
   WGPUBindGroup bindGroup = wgpuDeviceCreateBindGroup(
       device,
       &(WGPUBindGroupDescriptor){
-          .label = "bind group for obj: $i",
+          .label = "bind group for objects",
           .layout = wgpuRenderPipelineGetBindGroupLayout(pipeline, 0),
           .entries = (WGPUBindGroupEntry[3]){{.binding = 0,
                                               .buffer = staticStorageBuffer,
