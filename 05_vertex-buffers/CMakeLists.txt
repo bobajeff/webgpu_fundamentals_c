@@ -1,0 +1,12 @@
+cmake_minimum_required(VERSION 3.0...3.25)
+project(
+	webgpu-vertex-buffers # name of the project, which will also be the name of the visual studio solution if you use it
+	VERSION 0.1.0 # any version number
+	LANGUAGES CXX C # programming languages used by the project
+)
+
+#--------------WEBGPU-VERTEX-BUFFERS
+add_executable(webgpu-vertex-buffers
+webgpu-vertex-buffers.c
+)
+target_link_libraries(webgpu-vertex-buffers PRIVATE glfw wgpu_native create_surface framework)
