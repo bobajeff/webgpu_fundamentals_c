@@ -22,3 +22,9 @@ add_executable(webgpu-vertex-buffers-2-attributes-8bit-colors
 webgpu-vertex-buffers-2-attributes-8bit-colors.c
 )
 target_link_libraries(webgpu-vertex-buffers-2-attributes-8bit-colors PRIVATE glfw wgpu_native create_surface framework)
+
+#--------------WEBGPU-VERTEX-BUFFERS-2-BUFFERS
+add_executable(webgpu-vertex-buffers-2-buffers
+webgpu-vertex-buffers-2-buffers.c
+)
+target_link_libraries(webgpu-vertex-buffers-2-buffers PRIVATE glfw wgpu_native create_surface framework)
