@@ -48,7 +48,7 @@ typedef struct point_data {
 
 const circleVerticesConfig DEFAULT_CIRCLE_VERTICES_CONFIG = {
     .radius = 1,
-    .numSubdivisions = 25,
+    .numSubdivisions = 24,
     .innerRadius = 0,
     .startAngle = 0,
     .endAngle = M_PI * 2};
