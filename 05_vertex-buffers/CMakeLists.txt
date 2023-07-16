@@ -28,3 +28,9 @@ add_executable(webgpu-vertex-buffers-2-buffers
 webgpu-vertex-buffers-2-buffers.c
 )
 target_link_libraries(webgpu-vertex-buffers-2-buffers PRIVATE glfw wgpu_native create_surface framework)
+
+#--------------WEBGPU-VERTEX-BUFFERS-INDEX-BUFFER
+add_executable(webgpu-vertex-buffers-index-buffer
+webgpu-vertex-buffers-index-buffer.c
+)
+target_link_libraries(webgpu-vertex-buffers-index-buffer PRIVATE glfw wgpu_native create_surface framework)

@@ -8,7 +8,7 @@
             "name": "(gdb) Launch",
             "type": "cppdbg",
             "request": "launch",
-            "program": "${workspaceFolder}/build/05_vertex-buffers/webgpu-vertex-buffers-2-buffers",
+            "program": "${workspaceFolder}/build/05_vertex-buffers/webgpu-vertex-buffers-index-buffer",
             "args": [],
             "stopAtEntry": false,
             "cwd": "${workspaceFolder}/build/",
