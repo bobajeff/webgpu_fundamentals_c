@@ -10,3 +10,9 @@ add_executable(webgpu-simple-textured-quad
 webgpu-simple-textured-quad.c
 )
 target_link_libraries(webgpu-simple-textured-quad PRIVATE glfw wgpu_native create_surface framework)
+
+#--------------WEBGPU-SIMPLE-TEXTURED-QUAD-LINEAR
+add_executable(webgpu-simple-textured-quad-linear
+webgpu-simple-textured-quad-linear.c
+)
+target_link_libraries(webgpu-simple-textured-quad-linear PRIVATE glfw wgpu_native create_surface framework)
