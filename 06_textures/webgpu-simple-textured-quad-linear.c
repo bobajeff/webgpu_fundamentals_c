@@ -233,7 +233,7 @@ int main(int argc, char *argv[]) {
   int count = 0;
 
   while (!glfwWindowShouldClose(window)) {
-    // change setting after 500 loops (sinse making a GUI as easy outside of the web)
+    // change setting after 500 loops (because making a GUI is not as easy outside of the web)
     if (count < 500) 
     {
         count++;
