@@ -7,6 +7,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+#include <sys/time.h>
 
 // create a struct to hold the values for the uniforms
 typedef struct Uniforms {
@@ -264,14 +265,19 @@ int main(int argc, char *argv[]) {
   }
   int ndx = 0;
   int count = 0;
-  float time = 0.001;
 
+  struct timeval start, stop;
   WGPUSupportedLimits limits;
   bool gotlimits = wgpuDeviceGetLimits(device, &limits);
+  gettimeofday(&start, NULL);
+  gettimeofday(&stop, NULL);
 
   while (!glfwWindowShouldClose(window)) {
-    time *= 0.001;
-    // change setting after 500 loops (because making a GUI is not as easy outside of the web)
+    
+    
+    float time = start.tv_sec - stop.tv_sec;
+    // time *= 0.001;
+    // change setting after 250 loops (because making a GUI is not as easy outside of the web)
     if (count < 250) 
     {
         count++;
@@ -395,6 +401,7 @@ int main(int argc, char *argv[]) {
     wgpuSwapChainPresent(swapChain);
 
     glfwPollEvents();
+    gettimeofday(&stop, NULL);
   }
 
   glfwDestroyWindow(window);
