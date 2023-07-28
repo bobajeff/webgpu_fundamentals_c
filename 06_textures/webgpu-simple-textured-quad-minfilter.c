@@ -275,8 +275,8 @@ int main(int argc, char *argv[]) {
   while (!glfwWindowShouldClose(window)) {
     
     
-    float time = start.tv_sec - stop.tv_sec;
-    // time *= 0.001;
+    float time =  (stop.tv_sec - start.tv_sec)*1000 + (stop.tv_usec - start.tv_usec)/1000.0;
+    time *= 0.001;
     // change setting after 250 loops (because making a GUI is not as easy outside of the web)
     if (count < 250) 
     {
