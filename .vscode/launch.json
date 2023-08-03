@@ -8,7 +8,7 @@
             "name": "(gdb) Launch",
             "type": "cppdbg",
             "request": "launch",
-            "program": "${workspaceFolder}/build/06_textures/webgpu-simple-textured-quad-mipmap",
+            "program": "${workspaceFolder}/build/06_textures/webgpu-simple-textured-quad-mipmapfilter",
             "args": [],
             "stopAtEntry": false,
             "cwd": "${workspaceFolder}/build/",

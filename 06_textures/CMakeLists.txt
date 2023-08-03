@@ -28,3 +28,9 @@ add_executable(webgpu-simple-textured-quad-mipmap
 webgpu-simple-textured-quad-mipmap.c
 )
 target_link_libraries(webgpu-simple-textured-quad-mipmap PRIVATE glfw wgpu_native create_surface framework)
+
+#--------------WEBGPU-SIMPLE-TEXTURED-QUAD-MIPMAPFILTER
+add_executable(webgpu-simple-textured-quad-mipmapfilter
+webgpu-simple-textured-quad-mipmapfilter.c
+)
+target_link_libraries(webgpu-simple-textured-quad-mipmapfilter PRIVATE glfw wgpu_native create_surface framework cglm)
