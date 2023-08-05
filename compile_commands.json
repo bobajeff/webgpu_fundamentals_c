@@ -453,5 +453,15 @@
   "directory": "/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/build/06_textures",
   "command": "/usr/bin/cc -DRESOURCE_DIR=\\\"/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/res\\\" -I/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/build/_deps/glfw-src/include -I/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals -I/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/build/_deps/cglm-src/include -isystem /home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/wgpu -g -o CMakeFiles/webgpu-simple-textured-quad-mipmapfilter.dir/webgpu-simple-textured-quad-mipmapfilter.c.o -c /home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/06_textures/webgpu-simple-textured-quad-mipmapfilter.c",
   "file": "/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/06_textures/webgpu-simple-textured-quad-mipmapfilter.c"
+},
+{
+  "directory": "/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/build/07_importing_images",
+  "command": "/usr/bin/cc -DRESOURCE_DIR=\\\"/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/res\\\" -I/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/build/_deps/glfw-src/include -I/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals -isystem /home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/wgpu -g -o CMakeFiles/webgpu-simple-textured-quad-import-no-mips.dir/webgpu-simple-textured-quad-import-no-mips.c.o -c /home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/07_importing_images/webgpu-simple-textured-quad-import-no-mips.c",
+  "file": "/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/07_importing_images/webgpu-simple-textured-quad-import-no-mips.c"
+},
+{
+  "directory": "/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/build/07_importing_images",
+  "command": "/usr/bin/cc -DRESOURCE_DIR=\\\"/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/res\\\" -I/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/build/_deps/glfw-src/include -I/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals -I/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/build/_deps/cglm-src/include -isystem /home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/wgpu -g -o CMakeFiles/webgpu-simple-textured-quad-import.dir/webgpu-simple-textured-quad-import.c.o -c /home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/07_importing_images/webgpu-simple-textured-quad-import.c",
+  "file": "/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/07_importing_images/webgpu-simple-textured-quad-import.c"
 }
 ]

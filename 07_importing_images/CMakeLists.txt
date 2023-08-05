@@ -10,3 +10,9 @@ add_executable(webgpu-simple-textured-quad-import-no-mips
 webgpu-simple-textured-quad-import-no-mips.c
 )
 target_link_libraries(webgpu-simple-textured-quad-import-no-mips PRIVATE glfw wgpu_native create_surface framework)
+
+#--------------WEBGPU-SIMPLE-TEXTURED-QUAD-IMPORT
+add_executable(webgpu-simple-textured-quad-import
+webgpu-simple-textured-quad-import.c
+)
+target_link_libraries(webgpu-simple-textured-quad-import PRIVATE glfw wgpu_native create_surface framework cglm)
