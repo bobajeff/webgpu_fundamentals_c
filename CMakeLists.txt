@@ -13,6 +13,9 @@ endif()
 
 include(FetchContent)
 
+#--------------FFMPEG
+include(ffmpeg.cmake)
+
 #--------------GLFW
 FetchContent_Declare(
         glfw

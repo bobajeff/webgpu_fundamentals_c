@@ -16,3 +16,11 @@ add_executable(webgpu-simple-textured-quad-import
 webgpu-simple-textured-quad-import.c
 )
 target_link_libraries(webgpu-simple-textured-quad-import PRIVATE glfw wgpu_native create_surface framework cglm)
+
+#--------------WEBGPU-SIMPLE-TEXTURED-QUAD-IMPORT-VIDEO
+if(HAS_FFMPEG)
+  add_executable(webgpu-simple-textured-quad-import-video
+  webgpu-simple-textured-quad-import-video.c
+  )
+  target_link_libraries(webgpu-simple-textured-quad-import-video PRIVATE glfw wgpu_native create_surface framework cglm video)
+endif()

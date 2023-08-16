@@ -1,6 +1,11 @@
 [
 {
   "directory": "/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/build",
+  "command": "/usr/bin/cc -DRESOURCE_DIR=\\\"/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/res\\\" -I/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals -isystem /home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/ffmpeg/include -g -o CMakeFiles/video.dir/video.c.o -c /home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/video.c",
+  "file": "/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/video.c"
+},
+{
+  "directory": "/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/build",
   "command": "/usr/bin/cc -DRESOURCE_DIR=\\\"/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/res\\\" -DWGPU_TARGET=WGPU_TARGET_LINUX_X11 -I/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/build/_deps/glfw-src/include -isystem /home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/wgpu -g -o CMakeFiles/create_surface.dir/create_surface.c.o -c /home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/create_surface.c",
   "file": "/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/create_surface.c"
 },
@@ -463,5 +468,15 @@
   "directory": "/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/build/07_importing_images",
   "command": "/usr/bin/cc -DRESOURCE_DIR=\\\"/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/res\\\" -I/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/build/_deps/glfw-src/include -I/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals -I/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/build/_deps/cglm-src/include -isystem /home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/wgpu -g -o CMakeFiles/webgpu-simple-textured-quad-import.dir/webgpu-simple-textured-quad-import.c.o -c /home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/07_importing_images/webgpu-simple-textured-quad-import.c",
   "file": "/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/07_importing_images/webgpu-simple-textured-quad-import.c"
+},
+{
+  "directory": "/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/build/07_importing_images",
+  "command": "/usr/bin/cc -DRESOURCE_DIR=\\\"/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/res\\\" -I/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/build/_deps/glfw-src/include -I/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals -I/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/build/_deps/cglm-src/include -isystem /home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/wgpu -g -o CMakeFiles/webgpu-simple-textured-quad-import-video.dir/webgpu-simple-textured-quad-import-video.c.o -c /home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/07_importing_images/webgpu-simple-textured-quad-import-video.c",
+  "file": "/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/07_importing_images/webgpu-simple-textured-quad-import-video.c"
+},
+{
+  "directory": "/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/build/07_importing_images",
+  "command": "/usr/bin/cc -DRESOURCE_DIR=\\\"/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/res\\\" -I/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/build/_deps/glfw-src/include -I/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals -I/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/build/_deps/cglm-src/include -isystem /home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/wgpu -g -o CMakeFiles/test_video_7.dir/test_video_7.c.o -c /home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/07_importing_images/test_video_7.c",
+  "file": "/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/07_importing_images/test_video_7.c"
 }
 ]

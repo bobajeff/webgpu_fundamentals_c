@@ -3,3 +3,5 @@ build/
 .clang-format
 wgpu
 wgpu-linux-x86_64-debug/
+ffmpeg
+ffmpeg-master-latest-linux64-lgpl-shared/
