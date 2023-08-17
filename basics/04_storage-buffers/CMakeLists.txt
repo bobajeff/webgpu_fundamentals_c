@@ -4,7 +4,7 @@ project(
 	VERSION 0.1.0 # any version number
 	LANGUAGES CXX C # programming languages used by the project
 )
-add_compile_definitions(RESOURCE_DIR="${CMAKE_SOURCE_DIR}/04_storage-buffers/res/")
+add_compile_definitions(RESOURCE_DIR="${CMAKE_SOURCE_DIR}/basics/04_storage-buffers/res/")
 
 #--------------WEBGPU-SIMPLE-TRIANGLE-STORAGE-SPLIT-MINIMAL-CHANGES
 add_executable(webgpu-simple-triangle-storage-split-minimal-changes

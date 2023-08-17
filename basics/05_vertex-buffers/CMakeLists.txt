@@ -4,7 +4,7 @@ project(
 	VERSION 0.1.0 # any version number
 	LANGUAGES CXX C # programming languages used by the project
 )
-add_compile_definitions(RESOURCE_DIR="${CMAKE_SOURCE_DIR}/05_vertex-buffers/res/")
+add_compile_definitions(RESOURCE_DIR="${CMAKE_SOURCE_DIR}/basics/05_vertex-buffers/res/")
 
 #--------------WEBGPU-VERTEX-BUFFERS
 add_executable(webgpu-vertex-buffers
