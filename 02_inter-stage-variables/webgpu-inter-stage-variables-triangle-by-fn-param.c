@@ -41,7 +41,7 @@ int main(int argc, char *argv[]) {
       wgpuSurfaceGetPreferredFormat(surface, adapter);
 
   WGPUShaderModuleDescriptor shaderSource =
-      load_wgsl(RESOURCE_DIR "inter_stage_variables_connect_by_location.wgsl");
+      load_wgsl(RESOURCE_DIR "webgpu-inter-stage-variables-triangle-by-fn-param.wgsl");
   WGPUShaderModule module = wgpuDeviceCreateShaderModule(device, &shaderSource);
 
   WGPURenderPipeline pipeline = wgpuDeviceCreateRenderPipeline(

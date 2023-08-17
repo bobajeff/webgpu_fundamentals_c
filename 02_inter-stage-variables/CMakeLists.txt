@@ -12,14 +12,14 @@ webgpu-inter-stage-variables-triangle.c
 )
 target_link_libraries(webgpu-inter-stage-variables-triangle PRIVATE glfw wgpu_native create_surface framework)
 
-#--------------INTER_STAGE_VARIABLES_CONNECT_BY_LOCATION
-add_executable(inter_stage_variables_connect_by_location
-inter_stage_variables_connect_by_location.c
+#--------------WEBGPU-INTER-STAGE-VARIABLES-TRIANGLE-BY-FN-PARAM
+add_executable(webgpu-inter-stage-variables-triangle-by-fn-param
+webgpu-inter-stage-variables-triangle-by-fn-param.c
 )
-target_link_libraries(inter_stage_variables_connect_by_location PRIVATE glfw wgpu_native create_surface framework)
+target_link_libraries(webgpu-inter-stage-variables-triangle-by-fn-param PRIVATE glfw wgpu_native create_surface framework)
 
-#--------------INTER_STAGE_VARIABLES_CONNECT_BY_LOCATION
-add_executable(inter_stage_variables_connect_by_location_part2
-inter_stage_variables_connect_by_location_part2.c
+#--------------WEBGPU-FRAGMENT-SHADER-BUILTIN-POSITION
+add_executable(webgpu-fragment-shader-builtin-position
+webgpu-fragment-shader-builtin-position.c
 )
-target_link_libraries(inter_stage_variables_connect_by_location_part2 PRIVATE glfw wgpu_native create_surface framework)
+target_link_libraries(webgpu-fragment-shader-builtin-position PRIVATE glfw wgpu_native create_surface framework)
