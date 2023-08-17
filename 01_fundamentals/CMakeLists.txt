@@ -4,7 +4,7 @@ project(
 	VERSION 0.1.0 # any version number
 	LANGUAGES CXX C # programming languages used by the project
 )
-add_compile_definitions(RESOURCE_DIR="${CMAKE_SOURCE_DIR}/res/01_fundamentals/")
+add_compile_definitions(RESOURCE_DIR="${CMAKE_SOURCE_DIR}/01_fundamentals/res/")
 
 
 #--------------WEBGPU-SIMPLE-TRIANGLE

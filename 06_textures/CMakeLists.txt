@@ -5,7 +5,7 @@ project(
 	LANGUAGES CXX C # programming languages used by the project
 )
 
-add_compile_definitions(RESOURCE_DIR="${CMAKE_SOURCE_DIR}/res/06_textures/")
+add_compile_definitions(RESOURCE_DIR="${CMAKE_SOURCE_DIR}/06_textures/res/")
 
 #--------------WEBGPU-SIMPLE-TEXTURED-QUAD
 add_executable(webgpu-simple-textured-quad
