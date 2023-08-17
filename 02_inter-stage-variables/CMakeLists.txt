@@ -4,6 +4,8 @@ project(
 	VERSION 0.1.0 # any version number
 	LANGUAGES CXX C # programming languages used by the project
 )
+add_compile_definitions(RESOURCE_DIR="${CMAKE_SOURCE_DIR}/res/02_inter-stage-variables/")
+
 #--------------WEBGPU-INTER-STAGE-VARIABLES-TRIANGLE
 add_executable(webgpu-inter-stage-variables-triangle
 webgpu-inter-stage-variables-triangle.c

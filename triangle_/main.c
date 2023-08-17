@@ -41,7 +41,7 @@ int main(int argc, char *argv[]) {
   wgpuDeviceSetDeviceLostCallback(device, handle_device_lost, NULL);
 
   WGPUShaderModuleDescriptor shaderSource =
-      load_wgsl(RESOURCE_DIR "/shader.wgsl");
+      load_wgsl(RESOURCE_DIR "shader.wgsl");
   WGPUShaderModule shader = wgpuDeviceCreateShaderModule(device, &shaderSource);
 
   WGPUTextureFormat swapChainFormat =

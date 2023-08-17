@@ -70,7 +70,7 @@ framework.c
 target_link_libraries(framework PRIVATE wgpu_native)
 target_include_directories(framework PUBLIC ${CMAKE_SOURCE_DIR})
 
-add_compile_definitions(RESOURCE_DIR="${CMAKE_SOURCE_DIR}/res")
+# add_compile_definitions(RESOURCE_DIR="${CMAKE_SOURCE_DIR}/res")
 
 add_subdirectory(triangle_)
 add_subdirectory(01_fundamentals)

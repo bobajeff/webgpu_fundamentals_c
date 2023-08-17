@@ -32,7 +32,7 @@ WGPUTextureFormat _texture_format = WGPUTextureFormat_RGBA8Unorm;
 
 void init_mip_level_generator_pipeline(WGPUDevice device){
   WGPUShaderModuleDescriptor shaderSource =
-      load_wgsl(RESOURCE_DIR "/07_importing_images/textured_quad_shaders_for_mip_level_generation.wgsl");
+      load_wgsl(RESOURCE_DIR "textured_quad_shaders_for_mip_level_generation.wgsl");
     shaderSource.label = "our hardcoded textured quad shaders";
   WGPUShaderModule module = wgpuDeviceCreateShaderModule(device, &shaderSource);
 
@@ -317,7 +317,7 @@ int main(int argc, char *argv[]) {
       wgpuSurfaceGetPreferredFormat(surface, adapter);
 
   WGPUShaderModuleDescriptor shaderSource =
-      load_wgsl(RESOURCE_DIR "/07_importing_images/webgpu-simple-textured-quad-import.wgsl");
+      load_wgsl(RESOURCE_DIR "webgpu-simple-textured-quad-import.wgsl");
     shaderSource.label = "our hardcoded textured quad shaders";
   WGPUShaderModule module = wgpuDeviceCreateShaderModule(device, &shaderSource);
 
@@ -400,7 +400,7 @@ int main(int argc, char *argv[]) {
   video_data vdata = {
       .flipY = 1,
       .loop = 1,
-      .src = RESOURCE_DIR "/07_importing_images/Golden_retriever_swimming_the_doggy_paddle.webm",
+      .src = RESOURCE_DIR "Golden_retriever_swimming_the_doggy_paddle.webm",
       .output_format = AV_PIX_FMT_RGBA};
   playvideo(&vdata);
   WGPUTexture texture = createTextureFromSource(device, &vdata);

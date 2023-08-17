@@ -42,7 +42,7 @@ int main(int argc, char *argv[]) {
       wgpuSurfaceGetPreferredFormat(surface, adapter);
 
   WGPUShaderModuleDescriptor shaderSource =
-      load_wgsl(RESOURCE_DIR "/06_textures/shader.wgsl");
+      load_wgsl(RESOURCE_DIR "shader.wgsl");
     shaderSource.label = "our hardcoded textured quad shaders";
   WGPUShaderModule module = wgpuDeviceCreateShaderModule(device, &shaderSource);
 

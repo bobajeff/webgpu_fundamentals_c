@@ -32,7 +32,7 @@ WGPUTextureFormat _texture_format = WGPUTextureFormat_RGBA8Unorm;
 
 void init_mip_level_generator_pipeline(WGPUDevice device){
   WGPUShaderModuleDescriptor shaderSource =
-      load_wgsl(RESOURCE_DIR "/07_importing_images/textured_quad_shaders_for_mip_level_generation.wgsl");
+      load_wgsl(RESOURCE_DIR "textured_quad_shaders_for_mip_level_generation.wgsl");
     shaderSource.label = "our hardcoded textured quad shaders";
   WGPUShaderModule module = wgpuDeviceCreateShaderModule(device, &shaderSource);
 
@@ -293,7 +293,7 @@ int main(int argc, char *argv[]) {
       wgpuSurfaceGetPreferredFormat(surface, adapter);
 
   WGPUShaderModuleDescriptor shaderSource =
-      load_wgsl(RESOURCE_DIR "/07_importing_images/webgpu-simple-textured-quad-import.wgsl");
+      load_wgsl(RESOURCE_DIR "webgpu-simple-textured-quad-import.wgsl");
     shaderSource.label = "our hardcoded textured quad shaders";
   WGPUShaderModule module = wgpuDeviceCreateShaderModule(device, &shaderSource);
 
@@ -376,9 +376,9 @@ int main(int argc, char *argv[]) {
 
     #define NUM_OF_TEXTURES 3
     WGPUTexture textures[NUM_OF_TEXTURES] = {
-    createTextureFromImage(device, RESOURCE_DIR "/07_importing_images/f-texture.png", 0),
-    createTextureFromImage(device, RESOURCE_DIR "/07_importing_images/coins.jpg", 1),
-    createTextureFromImage(device, RESOURCE_DIR "/07_importing_images/Granite_paving_tileable_512x512.jpeg", 1),
+    createTextureFromImage(device, RESOURCE_DIR "f-texture.png", 0),
+    createTextureFromImage(device, RESOURCE_DIR "coins.jpg", 1),
+    createTextureFromImage(device, RESOURCE_DIR "Granite_paving_tileable_512x512.jpeg", 1),
   };
   
   WGPUBindGroup bindGroups[8][NUM_OF_TEXTURES];

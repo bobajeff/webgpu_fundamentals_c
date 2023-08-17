@@ -44,7 +44,7 @@ int main(int argc, char *argv[]) {
       wgpuSurfaceGetPreferredFormat(surface, adapter);
 
   WGPUShaderModuleDescriptor shaderSource =
-      load_wgsl(RESOURCE_DIR "/07_importing_images/shader.wgsl");
+      load_wgsl(RESOURCE_DIR "shader.wgsl");
     shaderSource.label = "our hardcoded textured quad shaders";
   WGPUShaderModule module = wgpuDeviceCreateShaderModule(device, &shaderSource);
 
@@ -125,7 +125,7 @@ int main(int argc, char *argv[]) {
   stbi_set_flip_vertically_on_load(1);
 
   int kTextureWidth, kTextureHeight, raw_image_channels;
-  unsigned char *textureData = stbi_load(RESOURCE_DIR "/07_importing_images/f-texture.png", &kTextureWidth, &kTextureHeight, &raw_image_channels, 4);
+  unsigned char *textureData = stbi_load(RESOURCE_DIR "f-texture.png", &kTextureWidth, &kTextureHeight, &raw_image_channels, 4);
   int textureDataSize = kTextureWidth * kTextureHeight * 4;
 
   WGPUQueue queue = wgpuDeviceGetQueue(device);

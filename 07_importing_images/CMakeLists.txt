@@ -4,6 +4,7 @@ project(
 	VERSION 0.1.0 # any version number
 	LANGUAGES CXX C # programming languages used by the project
 )
+add_compile_definitions(RESOURCE_DIR="${CMAKE_SOURCE_DIR}/res/07_importing_images/")
 
 #--------------WEBGPU-SIMPLE-TEXTURED-QUAD-IMPORT-NO-MIPS
 add_executable(webgpu-simple-textured-quad-import-no-mips

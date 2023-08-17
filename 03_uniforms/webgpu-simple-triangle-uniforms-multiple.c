@@ -76,7 +76,7 @@ int main(int argc, char *argv[]) {
       wgpuSurfaceGetPreferredFormat(surface, adapter);
 
   WGPUShaderModuleDescriptor shaderSource =
-      load_wgsl(RESOURCE_DIR "/03_uniforms/webgpu-simple-triangle-uniforms-multiple.wgsl");
+      load_wgsl(RESOURCE_DIR "webgpu-simple-triangle-uniforms-multiple.wgsl");
   WGPUShaderModule module = wgpuDeviceCreateShaderModule(device, &shaderSource);
 
   WGPURenderPipeline pipeline = wgpuDeviceCreateRenderPipeline(

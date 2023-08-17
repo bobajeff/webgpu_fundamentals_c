@@ -41,7 +41,7 @@ int main(int argc, char *argv[]) {
       wgpuSurfaceGetPreferredFormat(surface, adapter);
 
   WGPUShaderModuleDescriptor shaderSource =
-      load_wgsl(RESOURCE_DIR "/02_inter-stage-variables/checkerboard.wgsl");
+      load_wgsl(RESOURCE_DIR "checkerboard.wgsl");
   WGPUShaderModule module = wgpuDeviceCreateShaderModule(device, &shaderSource);
 
   WGPURenderPipeline pipeline = wgpuDeviceCreateRenderPipeline(

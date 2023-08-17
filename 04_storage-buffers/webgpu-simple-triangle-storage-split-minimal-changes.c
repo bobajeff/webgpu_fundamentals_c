@@ -82,7 +82,7 @@ WGPUQueue queue = wgpuDeviceGetQueue(device);
       wgpuSurfaceGetPreferredFormat(surface, adapter);
 
   WGPUShaderModuleDescriptor shaderSource =
-      load_wgsl(RESOURCE_DIR "/04_storage-buffers/shader.wgsl");
+      load_wgsl(RESOURCE_DIR "shader.wgsl");
   WGPUShaderModule module = wgpuDeviceCreateShaderModule(device, &shaderSource);
 
   WGPURenderPipeline pipeline = wgpuDeviceCreateRenderPipeline(

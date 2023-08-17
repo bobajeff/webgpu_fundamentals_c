@@ -151,7 +151,7 @@ WGPUQueue queue = wgpuDeviceGetQueue(device);
       wgpuSurfaceGetPreferredFormat(surface, adapter);
 
   WGPUShaderModuleDescriptor shaderSource =
-      load_wgsl(RESOURCE_DIR "/04_storage-buffers/webgpu-storage-buffer-vertices.wgsl");
+      load_wgsl(RESOURCE_DIR "webgpu-storage-buffer-vertices.wgsl");
   WGPUShaderModule module = wgpuDeviceCreateShaderModule(device, &shaderSource);
 
   WGPURenderPipeline pipeline = wgpuDeviceCreateRenderPipeline(

@@ -71,7 +71,7 @@ int main(int argc, char *argv[]) {
   WGPUSurface surface = create_surface(instance, window);
 
   WGPUShaderModuleDescriptor shaderSource =
-      load_wgsl(RESOURCE_DIR "/01_fundamentals/webgpu-simple-compute.wgsl");
+      load_wgsl(RESOURCE_DIR "webgpu-simple-compute.wgsl");
   WGPUShaderModule module = wgpuDeviceCreateShaderModule(device, &shaderSource);
 
   WGPUComputePipeline pipeline = wgpuDeviceCreateComputePipeline(

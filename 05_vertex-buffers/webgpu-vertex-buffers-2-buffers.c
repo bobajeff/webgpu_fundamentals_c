@@ -204,7 +204,7 @@ int main(int argc, char *argv[]) {
       wgpuSurfaceGetPreferredFormat(surface, adapter);
 
   WGPUShaderModuleDescriptor shaderSource = load_wgsl(
-      RESOURCE_DIR "/05_vertex-buffers/webgpu-vertex-buffers-2-buffers.wgsl");
+      RESOURCE_DIR "webgpu-vertex-buffers-2-buffers.wgsl");
   WGPUShaderModule module = wgpuDeviceCreateShaderModule(device, &shaderSource);
 
   WGPURenderPipeline pipeline = wgpuDeviceCreateRenderPipeline(

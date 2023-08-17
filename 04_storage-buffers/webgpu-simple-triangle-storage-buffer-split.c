@@ -79,7 +79,7 @@ WGPUQueue queue = wgpuDeviceGetQueue(device);
       wgpuSurfaceGetPreferredFormat(surface, adapter);
 
   WGPUShaderModuleDescriptor shaderSource =
-      load_wgsl(RESOURCE_DIR "/04_storage-buffers/webgpu-simple-triangle-storage-buffer-split.wgsl");
+      load_wgsl(RESOURCE_DIR "webgpu-simple-triangle-storage-buffer-split.wgsl");
   WGPUShaderModule module = wgpuDeviceCreateShaderModule(device, &shaderSource);
 
   WGPURenderPipeline pipeline = wgpuDeviceCreateRenderPipeline(

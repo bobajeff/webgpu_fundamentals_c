@@ -197,7 +197,7 @@ int main(int argc, char *argv[]) {
       wgpuSurfaceGetPreferredFormat(surface, adapter);
 
   WGPUShaderModuleDescriptor shaderSource =
-      load_wgsl(RESOURCE_DIR "/06_textures/webgpu-simple-textured-quad-mipmapfilter.wgsl");
+      load_wgsl(RESOURCE_DIR "webgpu-simple-textured-quad-mipmapfilter.wgsl");
     shaderSource.label = "our hardcoded textured quad shaders";
   WGPUShaderModule module = wgpuDeviceCreateShaderModule(device, &shaderSource);
 
