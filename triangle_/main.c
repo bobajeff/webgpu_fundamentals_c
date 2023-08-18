@@ -38,7 +38,6 @@ int main(int argc, char *argv[]) {
                            (void *)&device);
 
   wgpuDeviceSetUncapturedErrorCallback(device, handle_uncaptured_error, NULL);
-  wgpuDeviceSetDeviceLostCallback(device, handle_device_lost, NULL);
 
   WGPUShaderModuleDescriptor shaderSource =
       load_wgsl(RESOURCE_DIR "shader.wgsl");
@@ -176,7 +175,6 @@ int main(int argc, char *argv[]) {
     wgpuRenderPassEncoderSetPipeline(renderPass, pipeline);
     wgpuRenderPassEncoderDraw(renderPass, 3, 1, 0, 0);
     wgpuRenderPassEncoderEnd(renderPass);
-    wgpuTextureViewDrop(nextTexture);
 
     WGPUQueue queue = wgpuDeviceGetQueue(device);
     WGPUCommandBuffer cmdBuffer = wgpuCommandEncoderFinish(

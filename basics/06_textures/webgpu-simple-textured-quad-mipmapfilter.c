@@ -83,7 +83,7 @@ mip_data createNextMipLevelRgba8Unorm(mip_data *mip) {
       char *br = &src[((ty + 1) * srcWidth * (tx + 1)) * 4];
 
       // copy the "sampled" result into the dest.
-      char dstOffset = (y * dstWidth + x) * 4;
+      int dstOffset = (y * dstWidth + x) * 4;
       // char filtered_things[4];
       bilinearFilter(tl, tr, bl, br, t1, t2, &dst[dstOffset]);
     }
@@ -176,7 +176,6 @@ int main(int argc, char *argv[]) {
                            (void *)&device);
 
   wgpuDeviceSetUncapturedErrorCallback(device, handle_uncaptured_error, NULL);
-  wgpuDeviceSetDeviceLostCallback(device, handle_device_lost, NULL);
 
   // Create GLFW Window and use as WebGPU surface
   if (!glfwInit()) {
@@ -418,7 +417,7 @@ int main(int argc, char *argv[]) {
         .lodMinClamp = 0.0,
         .lodMaxClamp = 0.0,
         .compare = WGPUCompareFunction_Undefined,
-        .maxAnisotropy = 0,
+        .maxAnisotropy = 1, //** mystery_setting ** - needs this value to work
     });
 
     // create a buffer for the uniform values
@@ -609,7 +608,6 @@ int main(int argc, char *argv[]) {
     }
     wgpuRenderPassEncoderEnd(pass);
 
-    wgpuTextureViewDrop(view);
 
     WGPUQueue queue = wgpuDeviceGetQueue(device);
     WGPUCommandBuffer commandBuffer = wgpuCommandEncoderFinish(

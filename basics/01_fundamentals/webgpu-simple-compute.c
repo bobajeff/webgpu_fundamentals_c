@@ -53,7 +53,6 @@ int main(int argc, char *argv[]) {
                            (void *)&device);
 
   wgpuDeviceSetUncapturedErrorCallback(device, handle_uncaptured_error, NULL);
-  wgpuDeviceSetDeviceLostCallback(device, handle_device_lost, NULL);
 
   // Create GLFW Window and use as WebGPU surface
   if (!glfwInit()) {

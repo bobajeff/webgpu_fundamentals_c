@@ -59,7 +59,6 @@ int main(int argc, char *argv[]) {
 WGPUQueue queue = wgpuDeviceGetQueue(device);
 
   wgpuDeviceSetUncapturedErrorCallback(device, handle_uncaptured_error, NULL);
-  wgpuDeviceSetDeviceLostCallback(device, handle_device_lost, NULL);
 
   // Create GLFW Window and use as WebGPU surface
   if (!glfwInit()) {
@@ -302,7 +301,6 @@ WGPUQueue queue = wgpuDeviceGetQueue(device);
     wgpuRenderPassEncoderDraw(pass, 3, kNumObjects, 0,
                             0); // call our vertex shader 3 times.
     wgpuRenderPassEncoderEnd(pass);
-    wgpuTextureViewDrop(view);
 
     WGPUQueue queue = wgpuDeviceGetQueue(device);
     WGPUCommandBuffer commandBuffer = wgpuCommandEncoderFinish(

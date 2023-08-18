@@ -4,6 +4,9 @@ project(
 	VERSION 0.1.0 # any version number
 	LANGUAGES CXX C # programming languages used by the project
 )
+# add_compile_options(-fsanitize=address)
+# set (CMAKE_EXE_LINKER_FLAGS "-fsanitize=address")
+
 # send error for missing wgpu directory
 if(EXISTS ${CMAKE_SOURCE_DIR}/wgpu)
   message( STATUS "wpu exists")

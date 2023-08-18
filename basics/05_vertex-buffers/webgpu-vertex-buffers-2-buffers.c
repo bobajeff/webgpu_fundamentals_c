@@ -184,7 +184,6 @@ int main(int argc, char *argv[]) {
   WGPUQueue queue = wgpuDeviceGetQueue(device);
 
   wgpuDeviceSetUncapturedErrorCallback(device, handle_uncaptured_error, NULL);
-  wgpuDeviceSetDeviceLostCallback(device, handle_device_lost, NULL);
 
   // Create GLFW Window and use as WebGPU surface
   if (!glfwInit()) {
@@ -466,7 +465,6 @@ int main(int argc, char *argv[]) {
     wgpuRenderPassEncoderDraw(pass, vertexValues.numVertices, kNumObjects, 0,
                               0);
     wgpuRenderPassEncoderEnd(pass);
-    wgpuTextureViewDrop(view);
 
     WGPUQueue queue = wgpuDeviceGetQueue(device);
     WGPUCommandBuffer commandBuffer = wgpuCommandEncoderFinish(

@@ -22,7 +22,6 @@ int main(int argc, char *argv[]) {
                            (void *)&device);
 
   wgpuDeviceSetUncapturedErrorCallback(device, handle_uncaptured_error, NULL);
-  wgpuDeviceSetDeviceLostCallback(device, handle_device_lost, NULL);
 
   // Create GLFW Window and use as WebGPU surface
   if (!glfwInit()) {
@@ -185,7 +184,7 @@ int main(int argc, char *argv[]) {
     .lodMinClamp = 0.0,
     .lodMaxClamp = 0.0,
     .compare = WGPUCompareFunction_Undefined,
-    .maxAnisotropy = 0,
+    .maxAnisotropy = 1, //** mystery_setting ** - needs this value to work
   });
 
   WGPUBindGroup bindGroup = wgpuDeviceCreateBindGroup(device, &(WGPUBindGroupDescriptor){
@@ -286,7 +285,6 @@ int main(int argc, char *argv[]) {
     wgpuRenderPassEncoderDraw(pass, 6, 1, 0,
                               0); // call our vertex shader 6 times.
     wgpuRenderPassEncoderEnd(pass);
-    wgpuTextureViewDrop(view);
 
     WGPUQueue queue = wgpuDeviceGetQueue(device);
     WGPUCommandBuffer commandBuffer = wgpuCommandEncoderFinish(
