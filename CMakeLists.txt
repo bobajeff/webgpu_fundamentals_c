@@ -77,3 +77,4 @@ target_include_directories(framework PUBLIC ${CMAKE_SOURCE_DIR})
 
 add_subdirectory(triangle_)
 add_subdirectory(basics)
+add_subdirectory(3d_math)
