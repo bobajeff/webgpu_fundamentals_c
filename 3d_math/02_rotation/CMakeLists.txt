@@ -11,3 +11,9 @@ add_executable(webgpu-rotation-via-unit-circle
 webgpu-rotation-via-unit-circle.c
 )
 target_link_libraries(webgpu-rotation-via-unit-circle PRIVATE glfw wgpu_native create_surface framework)
+
+#--------------WEBGPU-ROTATION
+add_executable(webgpu-rotation
+webgpu-rotation.c
+)
+target_link_libraries(webgpu-rotation PRIVATE glfw wgpu_native create_surface framework)
