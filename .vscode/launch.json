@@ -8,7 +8,7 @@
             "name": "(gdb) Launch",
             "type": "cppdbg",
             "request": "launch",
-            "program": "${workspaceFolder}/build/3d_math/01_translation/webgpu-translation",
+            "program": "${workspaceFolder}/build/3d_math/02_rotation/webgpu-rotation-via-unit-circle",
             "args": [],
             "stopAtEntry": false,
             "cwd": "${workspaceFolder}/build/",

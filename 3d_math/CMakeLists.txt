@@ -5,3 +5,4 @@ project(
 )
 
 add_subdirectory(01_translation)
+add_subdirectory(02_rotation)
