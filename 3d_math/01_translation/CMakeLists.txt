@@ -11,3 +11,9 @@ add_executable(webgpu-translation-prep
 webgpu-translation-prep.c
 )
 target_link_libraries(webgpu-translation-prep PRIVATE glfw wgpu_native create_surface framework)
+
+#--------------WEBGPU-TRANSLATION
+add_executable(webgpu-translation
+webgpu-translation.c
+)
+target_link_libraries(webgpu-translation PRIVATE glfw wgpu_native create_surface framework)
