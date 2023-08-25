@@ -8,7 +8,7 @@
             "name": "(gdb) Launch",
             "type": "cppdbg",
             "request": "launch",
-            "program": "${workspaceFolder}/build/3d_math/02_rotation/webgpu-rotation",
+            "program": "${workspaceFolder}/build/3d_math/03_scale/webgpu-scale",
             "args": [],
             "stopAtEntry": false,
             "cwd": "${workspaceFolder}/build/",
