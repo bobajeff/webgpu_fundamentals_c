@@ -7,3 +7,4 @@ project(
 add_subdirectory(01_translation)
 add_subdirectory(02_rotation)
 add_subdirectory(03_scale)
+add_subdirectory(04_matrix_math)
