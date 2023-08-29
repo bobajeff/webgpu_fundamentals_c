@@ -8,7 +8,7 @@
             "name": "(gdb) Launch",
             "type": "cppdbg",
             "request": "launch",
-            "program": "${workspaceFolder}/build/3d_math/04_matrix_math/webgpu-matrix-math-transform-trs-3x3",
+            "program": "${workspaceFolder}/build/3d_math/04_matrix_math/webgpu-matrix-math-transform-srt-3x3",
             "args": [],
             "stopAtEntry": false,
             "cwd": "${workspaceFolder}/build/",
