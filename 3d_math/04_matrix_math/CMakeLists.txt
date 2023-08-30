@@ -29,3 +29,9 @@ add_executable(webgpu-matrix-math-transform-move-origin-3x3
 webgpu-matrix-math-transform-move-origin-3x3.c
 )
 target_link_libraries(webgpu-matrix-math-transform-move-origin-3x3 PRIVATE glfw wgpu_native create_surface framework)
+
+#--------------WEBGPU-MATRIX-MATH-TRANSFORM-JUST-MATRIX-3X3
+add_executable(webgpu-matrix-math-transform-just-matrix-3x3
+webgpu-matrix-math-transform-just-matrix-3x3.c
+)
+target_link_libraries(webgpu-matrix-math-transform-just-matrix-3x3 PRIVATE glfw wgpu_native create_surface framework)
