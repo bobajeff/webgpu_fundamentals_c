@@ -8,7 +8,7 @@
             "name": "(gdb) Launch",
             "type": "cppdbg",
             "request": "launch",
-            "program": "${workspaceFolder}/build/3d_math/04_matrix_math/webgpu-matrix-math-transform-trs",
+            "program": "${workspaceFolder}/build/3d_math/05_orthographic_projection/webgpu-orthographic-projection-step-1-flat-f",
             "args": [],
             "stopAtEntry": false,
             "cwd": "${workspaceFolder}/build/",
