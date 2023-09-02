@@ -11,3 +11,9 @@ add_executable(webgpu-orthographic-projection-step-1-flat-f
 webgpu-orthographic-projection-step-1-flat-f.c
 )
 target_link_libraries(webgpu-orthographic-projection-step-1-flat-f PRIVATE glfw wgpu_native create_surface framework)
+
+#--------------WEBGPU-ORTHOGRAPHIC-PROJECTION-STEP-2-3D-F
+add_executable(webgpu-orthographic-projection-step-2-3d-f
+webgpu-orthographic-projection-step-2-3d-f.c
+)
+target_link_libraries(webgpu-orthographic-projection-step-2-3d-f PRIVATE glfw wgpu_native create_surface framework)
