@@ -29,3 +29,9 @@ add_executable(webgpu-orthographic-projection-step-4-cullmode-back
 webgpu-orthographic-projection-step-4-cullmode-back.c
 )
 target_link_libraries(webgpu-orthographic-projection-step-4-cullmode-back PRIVATE glfw wgpu_native create_surface framework)
+
+#--------------WEBGPU-ORTHOGRAPHIC-PROJECTION-STEP-5-ORDER-FIXED
+add_executable(webgpu-orthographic-projection-step-5-order-fixed
+webgpu-orthographic-projection-step-5-order-fixed.c
+)
+target_link_libraries(webgpu-orthographic-projection-step-5-order-fixed PRIVATE glfw wgpu_native create_surface framework)
