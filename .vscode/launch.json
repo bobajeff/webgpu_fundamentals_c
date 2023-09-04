@@ -8,7 +8,7 @@
             "name": "(gdb) Launch",
             "type": "cppdbg",
             "request": "launch",
-            "program": "${workspaceFolder}/build/3d_math/05_orthographic_projection/webgpu-orthographic-projection-step-3-colored-3d-f",
+            "program": "${workspaceFolder}/build/3d_math/05_orthographic_projection/webgpu-orthographic-projection-step-4-cullmode-back",
             "args": [],
             "stopAtEntry": false,
             "cwd": "${workspaceFolder}/build/",

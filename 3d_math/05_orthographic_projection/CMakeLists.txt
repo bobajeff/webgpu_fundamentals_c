@@ -23,3 +23,9 @@ add_executable(webgpu-orthographic-projection-step-3-colored-3d-f
 webgpu-orthographic-projection-step-3-colored-3d-f.c
 )
 target_link_libraries(webgpu-orthographic-projection-step-3-colored-3d-f PRIVATE glfw wgpu_native create_surface framework)
+
+#--------------WEBGPU-ORTHOGRAPHIC-PROJECTION-STEP-4-CULLMODE-BACK
+add_executable(webgpu-orthographic-projection-step-4-cullmode-back
+webgpu-orthographic-projection-step-4-cullmode-back.c
+)
+target_link_libraries(webgpu-orthographic-projection-step-4-cullmode-back PRIVATE glfw wgpu_native create_surface framework)
