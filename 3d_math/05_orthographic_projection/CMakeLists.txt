@@ -41,3 +41,9 @@ add_executable(webgpu-orthographic-projection-step-6-depth-texture
 webgpu-orthographic-projection-step-6-depth-texture.c
 )
 target_link_libraries(webgpu-orthographic-projection-step-6-depth-texture PRIVATE glfw wgpu_native create_surface framework)
+
+#--------------WEBGPU-ORTHOGRAPHIC-PROJECTION-STEP-7-ORTHO
+add_executable(webgpu-orthographic-projection-step-7-ortho
+webgpu-orthographic-projection-step-7-ortho.c
+)
+target_link_libraries(webgpu-orthographic-projection-step-7-ortho PRIVATE glfw wgpu_native create_surface framework)
