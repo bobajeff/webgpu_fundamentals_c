@@ -11,3 +11,9 @@ add_executable(webgpu-perspective-projection-step-1-fudge-factor
 webgpu-perspective-projection-step-1-fudge-factor.c
 )
 target_link_libraries(webgpu-perspective-projection-step-1-fudge-factor PRIVATE glfw wgpu_native create_surface framework)
+
+#--------------WEBGPU-PERSPECTIVE-PROJECTION-STEP-2-GPU-DIVIDE-BY-W
+add_executable(webgpu-perspective-projection-step-2-gpu-divide-by-w
+webgpu-perspective-projection-step-2-gpu-divide-by-w.c
+)
+target_link_libraries(webgpu-perspective-projection-step-2-gpu-divide-by-w PRIVATE glfw wgpu_native create_surface framework)
