@@ -17,3 +17,9 @@ add_executable(webgpu-perspective-projection-step-2-gpu-divide-by-w
 webgpu-perspective-projection-step-2-gpu-divide-by-w.c
 )
 target_link_libraries(webgpu-perspective-projection-step-2-gpu-divide-by-w PRIVATE glfw wgpu_native create_surface framework)
+
+#--------------WEBGPU-PERSPECTIVE-PROJECTION-STEP-3-PERSPECTIVE-Z-TO-W
+add_executable(webgpu-perspective-projection-step-3-perspective-z-to-w
+webgpu-perspective-projection-step-3-perspective-z-to-w.c
+)
+target_link_libraries(webgpu-perspective-projection-step-3-perspective-z-to-w PRIVATE glfw wgpu_native create_surface framework)
