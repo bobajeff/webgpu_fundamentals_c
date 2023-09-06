@@ -23,3 +23,9 @@ add_executable(webgpu-perspective-projection-step-3-perspective-z-to-w
 webgpu-perspective-projection-step-3-perspective-z-to-w.c
 )
 target_link_libraries(webgpu-perspective-projection-step-3-perspective-z-to-w PRIVATE glfw wgpu_native create_surface framework)
+
+#--------------WEBGPU-PERSPECTIVE-PROJECTION-STEP-4-PERSPECTIVE
+add_executable(webgpu-perspective-projection-step-4-perspective
+webgpu-perspective-projection-step-4-perspective.c
+)
+target_link_libraries(webgpu-perspective-projection-step-4-perspective PRIVATE glfw wgpu_native create_surface framework)
