@@ -8,7 +8,7 @@
             "name": "(gdb) Launch",
             "type": "cppdbg",
             "request": "launch",
-            "program": "${workspaceFolder}/build/3d_math/06_perspective_projection/webgpu-perspective-projection-step-4-perspective",
+            "program": "${workspaceFolder}/build/3d_math/07_cameras/webgpu-cameras-step-1-direct-math",
             "args": [],
             "stopAtEntry": false,
             "cwd": "${workspaceFolder}/build/",

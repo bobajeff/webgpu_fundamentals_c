@@ -1,0 +1,13 @@
+cmake_minimum_required(VERSION 3.0...3.25)
+project(
+	webgpu-cameras # name of the project, which will also be the name of the visual studio solution if you use it
+	VERSION 0.1.0 # any version number
+	LANGUAGES CXX C # programming languages used by the project
+)
+add_compile_definitions(RESOURCE_DIR="${CMAKE_SOURCE_DIR}/3d_math/07_cameras/res/")
+
+#--------------WEBGPU-CAMERAS-STEP-1-DIRECT-MATH
+add_executable(webgpu-cameras-step-1-direct-math
+webgpu-cameras-step-1-direct-math.c
+)
+target_link_libraries(webgpu-cameras-step-1-direct-math PRIVATE glfw wgpu_native create_surface framework)
