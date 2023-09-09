@@ -1,7 +1,7 @@
 # webgpu fundamentals c
 
 ## following along
-The examples in `basics` and `3d_math` folder are following guide found here: https://webgpufundamentals.org/
+The examples in `basics` and `3d_math` folder are following the guide found here: https://webgpufundamentals.org/
 
 Since things change (and likely changed while working on this) [the guide from this revision](https://github.com/gfxfundamentals/webgpufundamentals/tree/d0a945b86f5541ae98368b2d904ba0d10dc77fd2) should be the similar to what I was following.
 
