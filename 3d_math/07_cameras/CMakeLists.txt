@@ -23,3 +23,9 @@ add_executable(webgpu-cameras-step-3-look-at
 webgpu-cameras-step-3-look-at.c
 )
 target_link_libraries(webgpu-cameras-step-3-look-at PRIVATE glfw wgpu_native create_surface framework)
+
+#--------------WEBGPU-CAMERAS-STEP-4-AIM-FS
+add_executable(webgpu-cameras-step-4-aim-Fs
+webgpu-cameras-step-4-aim-Fs.c
+)
+target_link_libraries(webgpu-cameras-step-4-aim-Fs PRIVATE glfw wgpu_native create_surface framework)
