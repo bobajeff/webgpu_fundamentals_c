@@ -8,7 +8,7 @@
             "name": "(gdb) Launch",
             "type": "cppdbg",
             "request": "launch",
-            "program": "${workspaceFolder}/build/3d_math/07_cameras/webgpu-cameras-step-2-camera-aim",
+            "program": "${workspaceFolder}/build/3d_math/07_cameras/webgpu-cameras-step-3-look-at",
             "args": [],
             "stopAtEntry": false,
             "cwd": "${workspaceFolder}/build/",
