@@ -11,3 +11,9 @@ add_executable(webgpu-cameras-step-1-direct-math
 webgpu-cameras-step-1-direct-math.c
 )
 target_link_libraries(webgpu-cameras-step-1-direct-math PRIVATE glfw wgpu_native create_surface framework)
+
+#--------------WEBGPU-CAMERAS-STEP-2-CAMERA-AIM
+add_executable(webgpu-cameras-step-2-camera-aim
+webgpu-cameras-step-2-camera-aim.c
+)
+target_link_libraries(webgpu-cameras-step-2-camera-aim PRIVATE glfw wgpu_native create_surface framework)
