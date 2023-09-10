@@ -8,7 +8,7 @@
             "name": "(gdb) Launch",
             "type": "cppdbg",
             "request": "launch",
-            "program": "${workspaceFolder}/build/3d_math/07_cameras/webgpu-cameras-step-4-aim-Fs",
+            "program": "${workspaceFolder}/build/compute_shaders/01_compute_shaders_basics/webgpu-compute-shaders-builtins",
             "args": [],
             "stopAtEntry": false,
             "cwd": "${workspaceFolder}/build/",

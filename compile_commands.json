@@ -1,17 +1,17 @@
 [
 {
   "directory": "/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/build",
-  "command": "/usr/bin/cc -DRESOURCE_DIR=\\\"/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/res\\\" -I/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals -isystem /home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/ffmpeg/include -g -o CMakeFiles/video.dir/video.c.o -c /home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/video.c",
+  "command": "/usr/bin/cc  -I/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals -isystem /home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/ffmpeg/include -g -o CMakeFiles/video.dir/video.c.o -c /home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/video.c",
   "file": "/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/video.c"
 },
 {
   "directory": "/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/build",
-  "command": "/usr/bin/cc -DRESOURCE_DIR=\\\"/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/res\\\" -DWGPU_TARGET=WGPU_TARGET_LINUX_X11 -I/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/build/_deps/glfw-src/include -isystem /home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/wgpu -g -o CMakeFiles/create_surface.dir/create_surface.c.o -c /home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/create_surface.c",
+  "command": "/usr/bin/cc -DWGPU_TARGET=WGPU_TARGET_LINUX_X11 -I/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/build/_deps/glfw-src/include -isystem /home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/wgpu -g -o CMakeFiles/create_surface.dir/create_surface.c.o -c /home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/create_surface.c",
   "file": "/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/create_surface.c"
 },
 {
   "directory": "/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/build",
-  "command": "/usr/bin/cc -DRESOURCE_DIR=\\\"/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/res\\\" -I/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals -isystem /home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/wgpu -g -o CMakeFiles/framework.dir/framework.c.o -c /home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/framework.c",
+  "command": "/usr/bin/cc  -I/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals -isystem /home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/wgpu -g -o CMakeFiles/framework.dir/framework.c.o -c /home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/framework.c",
   "file": "/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/framework.c"
 },
 {
@@ -351,132 +351,262 @@
 },
 {
   "directory": "/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/build/triangle_",
-  "command": "/usr/bin/cc -DRESOURCE_DIR=\\\"/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/res\\\" -I/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/build/_deps/glfw-src/include -I/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals -isystem /home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/wgpu -g -o CMakeFiles/triangle.dir/main.c.o -c /home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/triangle_/main.c",
+  "command": "/usr/bin/cc -DRESOURCE_DIR=\\\"/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/triangle_/res/\\\" -I/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/build/_deps/glfw-src/include -I/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals -isystem /home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/wgpu -g -o CMakeFiles/triangle.dir/main.c.o -c /home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/triangle_/main.c",
   "file": "/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/triangle_/main.c"
 },
 {
-  "directory": "/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/build/01_fundamentals",
-  "command": "/usr/bin/cc -DRESOURCE_DIR=\\\"/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/res\\\" -I/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/build/_deps/glfw-src/include -I/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals -isystem /home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/wgpu -g -o CMakeFiles/webgpu-simple-triangle.dir/webgpu-simple-triangle.c.o -c /home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/01_fundamentals/webgpu-simple-triangle.c",
-  "file": "/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/01_fundamentals/webgpu-simple-triangle.c"
+  "directory": "/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/build/basics/01_fundamentals",
+  "command": "/usr/bin/cc -DRESOURCE_DIR=\\\"/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/basics/01_fundamentals/res/\\\" -I/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/build/_deps/glfw-src/include -I/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals -isystem /home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/wgpu -g -o CMakeFiles/webgpu-simple-triangle.dir/webgpu-simple-triangle.c.o -c /home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/basics/01_fundamentals/webgpu-simple-triangle.c",
+  "file": "/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/basics/01_fundamentals/webgpu-simple-triangle.c"
 },
 {
-  "directory": "/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/build/01_fundamentals",
-  "command": "/usr/bin/cc -DRESOURCE_DIR=\\\"/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/res\\\" -I/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/build/_deps/glfw-src/include -I/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals -isystem /home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/wgpu -g -o CMakeFiles/webgpu-simple-compute.dir/webgpu-simple-compute.c.o -c /home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/01_fundamentals/webgpu-simple-compute.c",
-  "file": "/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/01_fundamentals/webgpu-simple-compute.c"
+  "directory": "/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/build/basics/01_fundamentals",
+  "command": "/usr/bin/cc -DRESOURCE_DIR=\\\"/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/basics/01_fundamentals/res/\\\" -I/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/build/_deps/glfw-src/include -I/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals -isystem /home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/wgpu -g -o CMakeFiles/webgpu-simple-compute.dir/webgpu-simple-compute.c.o -c /home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/basics/01_fundamentals/webgpu-simple-compute.c",
+  "file": "/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/basics/01_fundamentals/webgpu-simple-compute.c"
 },
 {
-  "directory": "/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/build/02_inter-stage-variables",
-  "command": "/usr/bin/cc -DRESOURCE_DIR=\\\"/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/res\\\" -I/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/build/_deps/glfw-src/include -I/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals -isystem /home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/wgpu -g -o CMakeFiles/webgpu-inter-stage-variables-triangle.dir/webgpu-inter-stage-variables-triangle.c.o -c /home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/02_inter-stage-variables/webgpu-inter-stage-variables-triangle.c",
-  "file": "/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/02_inter-stage-variables/webgpu-inter-stage-variables-triangle.c"
+  "directory": "/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/build/basics/02_inter-stage-variables",
+  "command": "/usr/bin/cc -DRESOURCE_DIR=\\\"/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/basics/02_inter-stage-variables/res/\\\" -I/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/build/_deps/glfw-src/include -I/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals -isystem /home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/wgpu -g -o CMakeFiles/webgpu-inter-stage-variables-triangle.dir/webgpu-inter-stage-variables-triangle.c.o -c /home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/basics/02_inter-stage-variables/webgpu-inter-stage-variables-triangle.c",
+  "file": "/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/basics/02_inter-stage-variables/webgpu-inter-stage-variables-triangle.c"
 },
 {
-  "directory": "/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/build/02_inter-stage-variables",
-  "command": "/usr/bin/cc -DRESOURCE_DIR=\\\"/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/res\\\" -I/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/build/_deps/glfw-src/include -I/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals -isystem /home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/wgpu -g -o CMakeFiles/inter_stage_variables_connect_by_location.dir/inter_stage_variables_connect_by_location.c.o -c /home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/02_inter-stage-variables/inter_stage_variables_connect_by_location.c",
-  "file": "/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/02_inter-stage-variables/inter_stage_variables_connect_by_location.c"
+  "directory": "/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/build/basics/02_inter-stage-variables",
+  "command": "/usr/bin/cc -DRESOURCE_DIR=\\\"/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/basics/02_inter-stage-variables/res/\\\" -I/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/build/_deps/glfw-src/include -I/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals -isystem /home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/wgpu -g -o CMakeFiles/webgpu-inter-stage-variables-triangle-by-fn-param.dir/webgpu-inter-stage-variables-triangle-by-fn-param.c.o -c /home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/basics/02_inter-stage-variables/webgpu-inter-stage-variables-triangle-by-fn-param.c",
+  "file": "/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/basics/02_inter-stage-variables/webgpu-inter-stage-variables-triangle-by-fn-param.c"
 },
 {
-  "directory": "/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/build/02_inter-stage-variables",
-  "command": "/usr/bin/cc -DRESOURCE_DIR=\\\"/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/res\\\" -I/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/build/_deps/glfw-src/include -I/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals -isystem /home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/wgpu -g -o CMakeFiles/inter_stage_variables_connect_by_location_part2.dir/inter_stage_variables_connect_by_location_part2.c.o -c /home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/02_inter-stage-variables/inter_stage_variables_connect_by_location_part2.c",
-  "file": "/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/02_inter-stage-variables/inter_stage_variables_connect_by_location_part2.c"
+  "directory": "/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/build/basics/02_inter-stage-variables",
+  "command": "/usr/bin/cc -DRESOURCE_DIR=\\\"/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/basics/02_inter-stage-variables/res/\\\" -I/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/build/_deps/glfw-src/include -I/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals -isystem /home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/wgpu -g -o CMakeFiles/webgpu-fragment-shader-builtin-position.dir/webgpu-fragment-shader-builtin-position.c.o -c /home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/basics/02_inter-stage-variables/webgpu-fragment-shader-builtin-position.c",
+  "file": "/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/basics/02_inter-stage-variables/webgpu-fragment-shader-builtin-position.c"
 },
 {
-  "directory": "/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/build/03_uniforms",
-  "command": "/usr/bin/cc -DRESOURCE_DIR=\\\"/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/res\\\" -I/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/build/_deps/glfw-src/include -I/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals -isystem /home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/wgpu -g -o CMakeFiles/webgpu-simple-triangle-uniforms.dir/webgpu-simple-triangle-uniforms.c.o -c /home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/03_uniforms/webgpu-simple-triangle-uniforms.c",
-  "file": "/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/03_uniforms/webgpu-simple-triangle-uniforms.c"
+  "directory": "/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/build/basics/03_uniforms",
+  "command": "/usr/bin/cc -DRESOURCE_DIR=\\\"/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/basics/03_uniforms/res/\\\" -I/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/build/_deps/glfw-src/include -I/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals -isystem /home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/wgpu -g -o CMakeFiles/webgpu-simple-triangle-uniforms.dir/webgpu-simple-triangle-uniforms.c.o -c /home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/basics/03_uniforms/webgpu-simple-triangle-uniforms.c",
+  "file": "/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/basics/03_uniforms/webgpu-simple-triangle-uniforms.c"
 },
 {
-  "directory": "/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/build/03_uniforms",
-  "command": "/usr/bin/cc -DRESOURCE_DIR=\\\"/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/res\\\" -I/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/build/_deps/glfw-src/include -I/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals -isystem /home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/wgpu -g -o CMakeFiles/webgpu-simple-triangle-uniforms-multiple.dir/webgpu-simple-triangle-uniforms-multiple.c.o -c /home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/03_uniforms/webgpu-simple-triangle-uniforms-multiple.c",
-  "file": "/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/03_uniforms/webgpu-simple-triangle-uniforms-multiple.c"
+  "directory": "/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/build/basics/03_uniforms",
+  "command": "/usr/bin/cc -DRESOURCE_DIR=\\\"/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/basics/03_uniforms/res/\\\" -I/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/build/_deps/glfw-src/include -I/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals -isystem /home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/wgpu -g -o CMakeFiles/webgpu-simple-triangle-uniforms-multiple.dir/webgpu-simple-triangle-uniforms-multiple.c.o -c /home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/basics/03_uniforms/webgpu-simple-triangle-uniforms-multiple.c",
+  "file": "/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/basics/03_uniforms/webgpu-simple-triangle-uniforms-multiple.c"
 },
 {
-  "directory": "/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/build/03_uniforms",
-  "command": "/usr/bin/cc -DRESOURCE_DIR=\\\"/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/res\\\" -I/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/build/_deps/glfw-src/include -I/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals -isystem /home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/wgpu -g -o CMakeFiles/webgpu-simple-triangle-uniforms-split.dir/webgpu-simple-triangle-uniforms-split.c.o -c /home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/03_uniforms/webgpu-simple-triangle-uniforms-split.c",
-  "file": "/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/03_uniforms/webgpu-simple-triangle-uniforms-split.c"
+  "directory": "/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/build/basics/03_uniforms",
+  "command": "/usr/bin/cc -DRESOURCE_DIR=\\\"/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/basics/03_uniforms/res/\\\" -I/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/build/_deps/glfw-src/include -I/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals -isystem /home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/wgpu -g -o CMakeFiles/webgpu-simple-triangle-uniforms-split.dir/webgpu-simple-triangle-uniforms-split.c.o -c /home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/basics/03_uniforms/webgpu-simple-triangle-uniforms-split.c",
+  "file": "/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/basics/03_uniforms/webgpu-simple-triangle-uniforms-split.c"
 },
 {
-  "directory": "/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/build/04_storage-buffers",
-  "command": "/usr/bin/cc -DRESOURCE_DIR=\\\"/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/res\\\" -I/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/build/_deps/glfw-src/include -I/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals -isystem /home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/wgpu -g -o CMakeFiles/webgpu-simple-triangle-storage-split-minimal-changes.dir/webgpu-simple-triangle-storage-split-minimal-changes.c.o -c /home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/04_storage-buffers/webgpu-simple-triangle-storage-split-minimal-changes.c",
-  "file": "/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/04_storage-buffers/webgpu-simple-triangle-storage-split-minimal-changes.c"
+  "directory": "/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/build/basics/04_storage-buffers",
+  "command": "/usr/bin/cc -DRESOURCE_DIR=\\\"/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/basics/04_storage-buffers/res/\\\" -I/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/build/_deps/glfw-src/include -I/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals -isystem /home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/wgpu -g -o CMakeFiles/webgpu-simple-triangle-storage-split-minimal-changes.dir/webgpu-simple-triangle-storage-split-minimal-changes.c.o -c /home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/basics/04_storage-buffers/webgpu-simple-triangle-storage-split-minimal-changes.c",
+  "file": "/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/basics/04_storage-buffers/webgpu-simple-triangle-storage-split-minimal-changes.c"
 },
 {
-  "directory": "/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/build/04_storage-buffers",
-  "command": "/usr/bin/cc -DRESOURCE_DIR=\\\"/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/res\\\" -I/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/build/_deps/glfw-src/include -I/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals -isystem /home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/wgpu -g -o CMakeFiles/webgpu-simple-triangle-storage-buffer-split.dir/webgpu-simple-triangle-storage-buffer-split.c.o -c /home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/04_storage-buffers/webgpu-simple-triangle-storage-buffer-split.c",
-  "file": "/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/04_storage-buffers/webgpu-simple-triangle-storage-buffer-split.c"
+  "directory": "/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/build/basics/04_storage-buffers",
+  "command": "/usr/bin/cc -DRESOURCE_DIR=\\\"/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/basics/04_storage-buffers/res/\\\" -I/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/build/_deps/glfw-src/include -I/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals -isystem /home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/wgpu -g -o CMakeFiles/webgpu-simple-triangle-storage-buffer-split.dir/webgpu-simple-triangle-storage-buffer-split.c.o -c /home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/basics/04_storage-buffers/webgpu-simple-triangle-storage-buffer-split.c",
+  "file": "/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/basics/04_storage-buffers/webgpu-simple-triangle-storage-buffer-split.c"
 },
 {
-  "directory": "/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/build/04_storage-buffers",
-  "command": "/usr/bin/cc -DRESOURCE_DIR=\\\"/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/res\\\" -I/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/build/_deps/glfw-src/include -I/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals -isystem /home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/wgpu -g -o CMakeFiles/webgpu-storage-buffer-vertices.dir/webgpu-storage-buffer-vertices.c.o -c /home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/04_storage-buffers/webgpu-storage-buffer-vertices.c",
-  "file": "/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/04_storage-buffers/webgpu-storage-buffer-vertices.c"
+  "directory": "/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/build/basics/04_storage-buffers",
+  "command": "/usr/bin/cc -DRESOURCE_DIR=\\\"/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/basics/04_storage-buffers/res/\\\" -I/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/build/_deps/glfw-src/include -I/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals -isystem /home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/wgpu -g -o CMakeFiles/webgpu-storage-buffer-vertices.dir/webgpu-storage-buffer-vertices.c.o -c /home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/basics/04_storage-buffers/webgpu-storage-buffer-vertices.c",
+  "file": "/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/basics/04_storage-buffers/webgpu-storage-buffer-vertices.c"
 },
 {
-  "directory": "/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/build/05_vertex-buffers",
-  "command": "/usr/bin/cc -DRESOURCE_DIR=\\\"/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/res\\\" -I/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/build/_deps/glfw-src/include -I/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals -isystem /home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/wgpu -g -o CMakeFiles/webgpu-vertex-buffers.dir/webgpu-vertex-buffers.c.o -c /home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/05_vertex-buffers/webgpu-vertex-buffers.c",
-  "file": "/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/05_vertex-buffers/webgpu-vertex-buffers.c"
+  "directory": "/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/build/basics/05_vertex-buffers",
+  "command": "/usr/bin/cc -DRESOURCE_DIR=\\\"/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/basics/05_vertex-buffers/res/\\\" -I/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/build/_deps/glfw-src/include -I/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals -isystem /home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/wgpu -g -o CMakeFiles/webgpu-vertex-buffers.dir/webgpu-vertex-buffers.c.o -c /home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/basics/05_vertex-buffers/webgpu-vertex-buffers.c",
+  "file": "/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/basics/05_vertex-buffers/webgpu-vertex-buffers.c"
 },
 {
-  "directory": "/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/build/05_vertex-buffers",
-  "command": "/usr/bin/cc -DRESOURCE_DIR=\\\"/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/res\\\" -I/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/build/_deps/glfw-src/include -I/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals -isystem /home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/wgpu -g -o CMakeFiles/webgpu-vertex-buffers-2-attributes.dir/webgpu-vertex-buffers-2-attributes.c.o -c /home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/05_vertex-buffers/webgpu-vertex-buffers-2-attributes.c",
-  "file": "/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/05_vertex-buffers/webgpu-vertex-buffers-2-attributes.c"
+  "directory": "/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/build/basics/05_vertex-buffers",
+  "command": "/usr/bin/cc -DRESOURCE_DIR=\\\"/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/basics/05_vertex-buffers/res/\\\" -I/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/build/_deps/glfw-src/include -I/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals -isystem /home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/wgpu -g -o CMakeFiles/webgpu-vertex-buffers-2-attributes.dir/webgpu-vertex-buffers-2-attributes.c.o -c /home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/basics/05_vertex-buffers/webgpu-vertex-buffers-2-attributes.c",
+  "file": "/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/basics/05_vertex-buffers/webgpu-vertex-buffers-2-attributes.c"
 },
 {
-  "directory": "/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/build/05_vertex-buffers",
-  "command": "/usr/bin/cc -DRESOURCE_DIR=\\\"/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/res\\\" -I/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/build/_deps/glfw-src/include -I/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals -isystem /home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/wgpu -g -o CMakeFiles/webgpu-vertex-buffers-2-attributes-8bit-colors.dir/webgpu-vertex-buffers-2-attributes-8bit-colors.c.o -c /home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/05_vertex-buffers/webgpu-vertex-buffers-2-attributes-8bit-colors.c",
-  "file": "/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/05_vertex-buffers/webgpu-vertex-buffers-2-attributes-8bit-colors.c"
+  "directory": "/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/build/basics/05_vertex-buffers",
+  "command": "/usr/bin/cc -DRESOURCE_DIR=\\\"/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/basics/05_vertex-buffers/res/\\\" -I/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/build/_deps/glfw-src/include -I/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals -isystem /home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/wgpu -g -o CMakeFiles/webgpu-vertex-buffers-2-attributes-8bit-colors.dir/webgpu-vertex-buffers-2-attributes-8bit-colors.c.o -c /home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/basics/05_vertex-buffers/webgpu-vertex-buffers-2-attributes-8bit-colors.c",
+  "file": "/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/basics/05_vertex-buffers/webgpu-vertex-buffers-2-attributes-8bit-colors.c"
 },
 {
-  "directory": "/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/build/05_vertex-buffers",
-  "command": "/usr/bin/cc -DRESOURCE_DIR=\\\"/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/res\\\" -I/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/build/_deps/glfw-src/include -I/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals -isystem /home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/wgpu -g -o CMakeFiles/webgpu-vertex-buffers-2-buffers.dir/webgpu-vertex-buffers-2-buffers.c.o -c /home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/05_vertex-buffers/webgpu-vertex-buffers-2-buffers.c",
-  "file": "/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/05_vertex-buffers/webgpu-vertex-buffers-2-buffers.c"
+  "directory": "/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/build/basics/05_vertex-buffers",
+  "command": "/usr/bin/cc -DRESOURCE_DIR=\\\"/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/basics/05_vertex-buffers/res/\\\" -I/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/build/_deps/glfw-src/include -I/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals -isystem /home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/wgpu -g -o CMakeFiles/webgpu-vertex-buffers-2-buffers.dir/webgpu-vertex-buffers-2-buffers.c.o -c /home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/basics/05_vertex-buffers/webgpu-vertex-buffers-2-buffers.c",
+  "file": "/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/basics/05_vertex-buffers/webgpu-vertex-buffers-2-buffers.c"
 },
 {
-  "directory": "/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/build/05_vertex-buffers",
-  "command": "/usr/bin/cc -DRESOURCE_DIR=\\\"/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/res\\\" -I/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/build/_deps/glfw-src/include -I/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals -isystem /home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/wgpu -g -o CMakeFiles/webgpu-vertex-buffers-index-buffer.dir/webgpu-vertex-buffers-index-buffer.c.o -c /home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/05_vertex-buffers/webgpu-vertex-buffers-index-buffer.c",
-  "file": "/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/05_vertex-buffers/webgpu-vertex-buffers-index-buffer.c"
+  "directory": "/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/build/basics/05_vertex-buffers",
+  "command": "/usr/bin/cc -DRESOURCE_DIR=\\\"/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/basics/05_vertex-buffers/res/\\\" -I/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/build/_deps/glfw-src/include -I/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals -isystem /home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/wgpu -g -o CMakeFiles/webgpu-vertex-buffers-index-buffer.dir/webgpu-vertex-buffers-index-buffer.c.o -c /home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/basics/05_vertex-buffers/webgpu-vertex-buffers-index-buffer.c",
+  "file": "/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/basics/05_vertex-buffers/webgpu-vertex-buffers-index-buffer.c"
 },
 {
-  "directory": "/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/build/06_textures",
-  "command": "/usr/bin/cc -DRESOURCE_DIR=\\\"/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/res\\\" -I/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/build/_deps/glfw-src/include -I/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals -isystem /home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/wgpu -g -o CMakeFiles/webgpu-simple-textured-quad.dir/webgpu-simple-textured-quad.c.o -c /home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/06_textures/webgpu-simple-textured-quad.c",
-  "file": "/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/06_textures/webgpu-simple-textured-quad.c"
+  "directory": "/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/build/basics/06_textures",
+  "command": "/usr/bin/cc -DRESOURCE_DIR=\\\"/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/basics/06_textures/res/\\\" -I/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/build/_deps/glfw-src/include -I/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals -isystem /home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/wgpu -g -o CMakeFiles/webgpu-simple-textured-quad.dir/webgpu-simple-textured-quad.c.o -c /home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/basics/06_textures/webgpu-simple-textured-quad.c",
+  "file": "/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/basics/06_textures/webgpu-simple-textured-quad.c"
 },
 {
-  "directory": "/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/build/06_textures",
-  "command": "/usr/bin/cc -DRESOURCE_DIR=\\\"/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/res\\\" -I/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/build/_deps/glfw-src/include -I/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals -isystem /home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/wgpu -g -o CMakeFiles/webgpu-simple-textured-quad-linear.dir/webgpu-simple-textured-quad-linear.c.o -c /home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/06_textures/webgpu-simple-textured-quad-linear.c",
-  "file": "/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/06_textures/webgpu-simple-textured-quad-linear.c"
+  "directory": "/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/build/basics/06_textures",
+  "command": "/usr/bin/cc -DRESOURCE_DIR=\\\"/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/basics/06_textures/res/\\\" -I/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/build/_deps/glfw-src/include -I/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals -isystem /home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/wgpu -g -o CMakeFiles/webgpu-simple-textured-quad-linear.dir/webgpu-simple-textured-quad-linear.c.o -c /home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/basics/06_textures/webgpu-simple-textured-quad-linear.c",
+  "file": "/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/basics/06_textures/webgpu-simple-textured-quad-linear.c"
 },
 {
-  "directory": "/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/build/06_textures",
-  "command": "/usr/bin/cc -DRESOURCE_DIR=\\\"/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/res\\\" -I/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/build/_deps/glfw-src/include -I/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals -isystem /home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/wgpu -g -o CMakeFiles/webgpu-simple-textured-quad-minfilter.dir/webgpu-simple-textured-quad-minfilter.c.o -c /home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/06_textures/webgpu-simple-textured-quad-minfilter.c",
-  "file": "/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/06_textures/webgpu-simple-textured-quad-minfilter.c"
+  "directory": "/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/build/basics/06_textures",
+  "command": "/usr/bin/cc -DRESOURCE_DIR=\\\"/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/basics/06_textures/res/\\\" -I/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/build/_deps/glfw-src/include -I/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals -isystem /home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/wgpu -g -o CMakeFiles/webgpu-simple-textured-quad-minfilter.dir/webgpu-simple-textured-quad-minfilter.c.o -c /home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/basics/06_textures/webgpu-simple-textured-quad-minfilter.c",
+  "file": "/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/basics/06_textures/webgpu-simple-textured-quad-minfilter.c"
 },
 {
-  "directory": "/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/build/06_textures",
-  "command": "/usr/bin/cc -DRESOURCE_DIR=\\\"/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/res\\\" -I/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/build/_deps/glfw-src/include -I/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals -isystem /home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/wgpu -g -o CMakeFiles/webgpu-simple-textured-quad-mipmap.dir/webgpu-simple-textured-quad-mipmap.c.o -c /home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/06_textures/webgpu-simple-textured-quad-mipmap.c",
-  "file": "/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/06_textures/webgpu-simple-textured-quad-mipmap.c"
+  "directory": "/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/build/basics/06_textures",
+  "command": "/usr/bin/cc -DRESOURCE_DIR=\\\"/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/basics/06_textures/res/\\\" -I/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/build/_deps/glfw-src/include -I/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals -isystem /home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/wgpu -g -o CMakeFiles/webgpu-simple-textured-quad-mipmap.dir/webgpu-simple-textured-quad-mipmap.c.o -c /home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/basics/06_textures/webgpu-simple-textured-quad-mipmap.c",
+  "file": "/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/basics/06_textures/webgpu-simple-textured-quad-mipmap.c"
 },
 {
-  "directory": "/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/build/06_textures",
-  "command": "/usr/bin/cc -DRESOURCE_DIR=\\\"/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/res\\\" -I/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/build/_deps/glfw-src/include -I/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals -I/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/build/_deps/cglm-src/include -isystem /home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/wgpu -g -o CMakeFiles/webgpu-simple-textured-quad-mipmapfilter.dir/webgpu-simple-textured-quad-mipmapfilter.c.o -c /home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/06_textures/webgpu-simple-textured-quad-mipmapfilter.c",
-  "file": "/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/06_textures/webgpu-simple-textured-quad-mipmapfilter.c"
+  "directory": "/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/build/basics/06_textures",
+  "command": "/usr/bin/cc -DRESOURCE_DIR=\\\"/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/basics/06_textures/res/\\\" -I/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/build/_deps/glfw-src/include -I/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals -I/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/build/_deps/cglm-src/include -isystem /home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/wgpu -g -o CMakeFiles/webgpu-simple-textured-quad-mipmapfilter.dir/webgpu-simple-textured-quad-mipmapfilter.c.o -c /home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/basics/06_textures/webgpu-simple-textured-quad-mipmapfilter.c",
+  "file": "/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/basics/06_textures/webgpu-simple-textured-quad-mipmapfilter.c"
 },
 {
-  "directory": "/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/build/07_importing_images",
-  "command": "/usr/bin/cc -DRESOURCE_DIR=\\\"/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/res\\\" -I/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/build/_deps/glfw-src/include -I/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals -isystem /home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/wgpu -g -o CMakeFiles/webgpu-simple-textured-quad-import-no-mips.dir/webgpu-simple-textured-quad-import-no-mips.c.o -c /home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/07_importing_images/webgpu-simple-textured-quad-import-no-mips.c",
-  "file": "/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/07_importing_images/webgpu-simple-textured-quad-import-no-mips.c"
+  "directory": "/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/build/basics/07_importing_images",
+  "command": "/usr/bin/cc -DRESOURCE_DIR=\\\"/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/basics/07_importing_images/res/\\\" -I/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/build/_deps/glfw-src/include -I/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals -isystem /home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/wgpu -g -o CMakeFiles/webgpu-simple-textured-quad-import-no-mips.dir/webgpu-simple-textured-quad-import-no-mips.c.o -c /home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/basics/07_importing_images/webgpu-simple-textured-quad-import-no-mips.c",
+  "file": "/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/basics/07_importing_images/webgpu-simple-textured-quad-import-no-mips.c"
 },
 {
-  "directory": "/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/build/07_importing_images",
-  "command": "/usr/bin/cc -DRESOURCE_DIR=\\\"/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/res\\\" -I/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/build/_deps/glfw-src/include -I/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals -I/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/build/_deps/cglm-src/include -isystem /home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/wgpu -g -o CMakeFiles/webgpu-simple-textured-quad-import.dir/webgpu-simple-textured-quad-import.c.o -c /home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/07_importing_images/webgpu-simple-textured-quad-import.c",
-  "file": "/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/07_importing_images/webgpu-simple-textured-quad-import.c"
+  "directory": "/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/build/basics/07_importing_images",
+  "command": "/usr/bin/cc -DRESOURCE_DIR=\\\"/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/basics/07_importing_images/res/\\\" -I/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/build/_deps/glfw-src/include -I/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals -I/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/build/_deps/cglm-src/include -isystem /home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/wgpu -g -o CMakeFiles/webgpu-simple-textured-quad-import.dir/webgpu-simple-textured-quad-import.c.o -c /home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/basics/07_importing_images/webgpu-simple-textured-quad-import.c",
+  "file": "/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/basics/07_importing_images/webgpu-simple-textured-quad-import.c"
 },
 {
-  "directory": "/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/build/07_importing_images",
-  "command": "/usr/bin/cc -DRESOURCE_DIR=\\\"/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/res\\\" -I/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/build/_deps/glfw-src/include -I/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals -I/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/build/_deps/cglm-src/include -isystem /home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/wgpu -g -o CMakeFiles/webgpu-simple-textured-quad-import-video.dir/webgpu-simple-textured-quad-import-video.c.o -c /home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/07_importing_images/webgpu-simple-textured-quad-import-video.c",
-  "file": "/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/07_importing_images/webgpu-simple-textured-quad-import-video.c"
+  "directory": "/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/build/basics/07_importing_images",
+  "command": "/usr/bin/cc -DRESOURCE_DIR=\\\"/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/basics/07_importing_images/res/\\\" -I/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/build/_deps/glfw-src/include -I/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals -I/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/build/_deps/cglm-src/include -isystem /home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/wgpu -g -o CMakeFiles/webgpu-simple-textured-quad-import-video.dir/webgpu-simple-textured-quad-import-video.c.o -c /home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/basics/07_importing_images/webgpu-simple-textured-quad-import-video.c",
+  "file": "/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/basics/07_importing_images/webgpu-simple-textured-quad-import-video.c"
 },
 {
-  "directory": "/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/build/07_importing_images",
-  "command": "/usr/bin/cc -DRESOURCE_DIR=\\\"/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/res\\\" -I/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/build/_deps/glfw-src/include -I/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals -I/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/build/_deps/cglm-src/include -isystem /home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/wgpu -g -o CMakeFiles/test_video_7.dir/test_video_7.c.o -c /home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/07_importing_images/test_video_7.c",
-  "file": "/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/07_importing_images/test_video_7.c"
+  "directory": "/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/build/3d_math/01_translation",
+  "command": "/usr/bin/cc -DRESOURCE_DIR=\\\"/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/3d_math/01_translation/res/\\\" -I/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/build/_deps/glfw-src/include -I/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals -isystem /home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/wgpu -g -o CMakeFiles/webgpu-translation-prep.dir/webgpu-translation-prep.c.o -c /home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/3d_math/01_translation/webgpu-translation-prep.c",
+  "file": "/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/3d_math/01_translation/webgpu-translation-prep.c"
+},
+{
+  "directory": "/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/build/3d_math/01_translation",
+  "command": "/usr/bin/cc -DRESOURCE_DIR=\\\"/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/3d_math/01_translation/res/\\\" -I/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/build/_deps/glfw-src/include -I/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals -isystem /home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/wgpu -g -o CMakeFiles/webgpu-translation.dir/webgpu-translation.c.o -c /home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/3d_math/01_translation/webgpu-translation.c",
+  "file": "/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/3d_math/01_translation/webgpu-translation.c"
+},
+{
+  "directory": "/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/build/3d_math/02_rotation",
+  "command": "/usr/bin/cc -DRESOURCE_DIR=\\\"/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/3d_math/02_rotation/res/\\\" -I/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/build/_deps/glfw-src/include -I/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals -isystem /home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/wgpu -g -o CMakeFiles/webgpu-rotation-via-unit-circle.dir/webgpu-rotation-via-unit-circle.c.o -c /home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/3d_math/02_rotation/webgpu-rotation-via-unit-circle.c",
+  "file": "/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/3d_math/02_rotation/webgpu-rotation-via-unit-circle.c"
+},
+{
+  "directory": "/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/build/3d_math/02_rotation",
+  "command": "/usr/bin/cc -DRESOURCE_DIR=\\\"/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/3d_math/02_rotation/res/\\\" -I/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/build/_deps/glfw-src/include -I/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals -isystem /home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/wgpu -g -o CMakeFiles/webgpu-rotation.dir/webgpu-rotation.c.o -c /home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/3d_math/02_rotation/webgpu-rotation.c",
+  "file": "/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/3d_math/02_rotation/webgpu-rotation.c"
+},
+{
+  "directory": "/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/build/3d_math/03_scale",
+  "command": "/usr/bin/cc -DRESOURCE_DIR=\\\"/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/3d_math/03_scale/res/\\\" -I/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/build/_deps/glfw-src/include -I/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals -isystem /home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/wgpu -g -o CMakeFiles/webgpu-scale.dir/webgpu-scale.c.o -c /home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/3d_math/03_scale/webgpu-scale.c",
+  "file": "/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/3d_math/03_scale/webgpu-scale.c"
+},
+{
+  "directory": "/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/build/3d_math/04_matrix_math",
+  "command": "/usr/bin/cc -DRESOURCE_DIR=\\\"/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/3d_math/04_matrix_math/res/\\\" -I/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/build/_deps/glfw-src/include -I/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals -isystem /home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/wgpu -g -o CMakeFiles/webgpu-matrix-math-transform-trs-3x3.dir/webgpu-matrix-math-transform-trs-3x3.c.o -c /home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/3d_math/04_matrix_math/webgpu-matrix-math-transform-trs-3x3.c",
+  "file": "/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/3d_math/04_matrix_math/webgpu-matrix-math-transform-trs-3x3.c"
+},
+{
+  "directory": "/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/build/3d_math/04_matrix_math",
+  "command": "/usr/bin/cc -DRESOURCE_DIR=\\\"/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/3d_math/04_matrix_math/res/\\\" -I/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/build/_deps/glfw-src/include -I/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals -isystem /home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/wgpu -g -o CMakeFiles/webgpu-matrix-math-transform-srt-3x3.dir/webgpu-matrix-math-transform-srt-3x3.c.o -c /home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/3d_math/04_matrix_math/webgpu-matrix-math-transform-srt-3x3.c",
+  "file": "/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/3d_math/04_matrix_math/webgpu-matrix-math-transform-srt-3x3.c"
+},
+{
+  "directory": "/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/build/3d_math/04_matrix_math",
+  "command": "/usr/bin/cc -DRESOURCE_DIR=\\\"/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/3d_math/04_matrix_math/res/\\\" -I/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/build/_deps/glfw-src/include -I/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals -isystem /home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/wgpu -g -o CMakeFiles/webgpu-matrix-math-transform-five-fs-3x3.dir/webgpu-matrix-math-transform-five-fs-3x3.c.o -c /home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/3d_math/04_matrix_math/webgpu-matrix-math-transform-five-fs-3x3.c",
+  "file": "/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/3d_math/04_matrix_math/webgpu-matrix-math-transform-five-fs-3x3.c"
+},
+{
+  "directory": "/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/build/3d_math/04_matrix_math",
+  "command": "/usr/bin/cc -DRESOURCE_DIR=\\\"/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/3d_math/04_matrix_math/res/\\\" -I/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/build/_deps/glfw-src/include -I/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals -isystem /home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/wgpu -g -o CMakeFiles/webgpu-matrix-math-transform-move-origin-3x3.dir/webgpu-matrix-math-transform-move-origin-3x3.c.o -c /home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/3d_math/04_matrix_math/webgpu-matrix-math-transform-move-origin-3x3.c",
+  "file": "/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/3d_math/04_matrix_math/webgpu-matrix-math-transform-move-origin-3x3.c"
+},
+{
+  "directory": "/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/build/3d_math/04_matrix_math",
+  "command": "/usr/bin/cc -DRESOURCE_DIR=\\\"/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/3d_math/04_matrix_math/res/\\\" -I/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/build/_deps/glfw-src/include -I/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals -isystem /home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/wgpu -g -o CMakeFiles/webgpu-matrix-math-transform-just-matrix-3x3.dir/webgpu-matrix-math-transform-just-matrix-3x3.c.o -c /home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/3d_math/04_matrix_math/webgpu-matrix-math-transform-just-matrix-3x3.c",
+  "file": "/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/3d_math/04_matrix_math/webgpu-matrix-math-transform-just-matrix-3x3.c"
+},
+{
+  "directory": "/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/build/3d_math/04_matrix_math",
+  "command": "/usr/bin/cc -DRESOURCE_DIR=\\\"/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/3d_math/04_matrix_math/res/\\\" -I/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/build/_deps/glfw-src/include -I/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals -isystem /home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/wgpu -g -o CMakeFiles/webgpu-matrix-math-transform-trs.dir/webgpu-matrix-math-transform-trs.c.o -c /home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/3d_math/04_matrix_math/webgpu-matrix-math-transform-trs.c",
+  "file": "/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/3d_math/04_matrix_math/webgpu-matrix-math-transform-trs.c"
+},
+{
+  "directory": "/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/build/3d_math/05_orthographic_projection",
+  "command": "/usr/bin/cc -DRESOURCE_DIR=\\\"/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/3d_math/05_orthographic_projection/res/\\\" -I/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/build/_deps/glfw-src/include -I/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals -isystem /home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/wgpu -g -o CMakeFiles/webgpu-orthographic-projection-step-1-flat-f.dir/webgpu-orthographic-projection-step-1-flat-f.c.o -c /home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/3d_math/05_orthographic_projection/webgpu-orthographic-projection-step-1-flat-f.c",
+  "file": "/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/3d_math/05_orthographic_projection/webgpu-orthographic-projection-step-1-flat-f.c"
+},
+{
+  "directory": "/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/build/3d_math/05_orthographic_projection",
+  "command": "/usr/bin/cc -DRESOURCE_DIR=\\\"/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/3d_math/05_orthographic_projection/res/\\\" -I/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/build/_deps/glfw-src/include -I/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals -isystem /home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/wgpu -g -o CMakeFiles/webgpu-orthographic-projection-step-2-3d-f.dir/webgpu-orthographic-projection-step-2-3d-f.c.o -c /home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/3d_math/05_orthographic_projection/webgpu-orthographic-projection-step-2-3d-f.c",
+  "file": "/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/3d_math/05_orthographic_projection/webgpu-orthographic-projection-step-2-3d-f.c"
+},
+{
+  "directory": "/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/build/3d_math/05_orthographic_projection",
+  "command": "/usr/bin/cc -DRESOURCE_DIR=\\\"/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/3d_math/05_orthographic_projection/res/\\\" -I/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/build/_deps/glfw-src/include -I/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals -isystem /home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/wgpu -g -o CMakeFiles/webgpu-orthographic-projection-step-3-colored-3d-f.dir/webgpu-orthographic-projection-step-3-colored-3d-f.c.o -c /home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/3d_math/05_orthographic_projection/webgpu-orthographic-projection-step-3-colored-3d-f.c",
+  "file": "/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/3d_math/05_orthographic_projection/webgpu-orthographic-projection-step-3-colored-3d-f.c"
+},
+{
+  "directory": "/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/build/3d_math/05_orthographic_projection",
+  "command": "/usr/bin/cc -DRESOURCE_DIR=\\\"/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/3d_math/05_orthographic_projection/res/\\\" -I/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/build/_deps/glfw-src/include -I/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals -isystem /home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/wgpu -g -o CMakeFiles/webgpu-orthographic-projection-step-4-cullmode-back.dir/webgpu-orthographic-projection-step-4-cullmode-back.c.o -c /home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/3d_math/05_orthographic_projection/webgpu-orthographic-projection-step-4-cullmode-back.c",
+  "file": "/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/3d_math/05_orthographic_projection/webgpu-orthographic-projection-step-4-cullmode-back.c"
+},
+{
+  "directory": "/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/build/3d_math/05_orthographic_projection",
+  "command": "/usr/bin/cc -DRESOURCE_DIR=\\\"/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/3d_math/05_orthographic_projection/res/\\\" -I/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/build/_deps/glfw-src/include -I/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals -isystem /home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/wgpu -g -o CMakeFiles/webgpu-orthographic-projection-step-5-order-fixed.dir/webgpu-orthographic-projection-step-5-order-fixed.c.o -c /home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/3d_math/05_orthographic_projection/webgpu-orthographic-projection-step-5-order-fixed.c",
+  "file": "/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/3d_math/05_orthographic_projection/webgpu-orthographic-projection-step-5-order-fixed.c"
+},
+{
+  "directory": "/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/build/3d_math/05_orthographic_projection",
+  "command": "/usr/bin/cc -DRESOURCE_DIR=\\\"/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/3d_math/05_orthographic_projection/res/\\\" -I/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/build/_deps/glfw-src/include -I/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals -isystem /home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/wgpu -g -o CMakeFiles/webgpu-orthographic-projection-step-6-depth-texture.dir/webgpu-orthographic-projection-step-6-depth-texture.c.o -c /home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/3d_math/05_orthographic_projection/webgpu-orthographic-projection-step-6-depth-texture.c",
+  "file": "/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/3d_math/05_orthographic_projection/webgpu-orthographic-projection-step-6-depth-texture.c"
+},
+{
+  "directory": "/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/build/3d_math/05_orthographic_projection",
+  "command": "/usr/bin/cc -DRESOURCE_DIR=\\\"/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/3d_math/05_orthographic_projection/res/\\\" -I/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/build/_deps/glfw-src/include -I/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals -isystem /home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/wgpu -g -o CMakeFiles/webgpu-orthographic-projection-step-7-ortho.dir/webgpu-orthographic-projection-step-7-ortho.c.o -c /home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/3d_math/05_orthographic_projection/webgpu-orthographic-projection-step-7-ortho.c",
+  "file": "/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/3d_math/05_orthographic_projection/webgpu-orthographic-projection-step-7-ortho.c"
+},
+{
+  "directory": "/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/build/3d_math/06_perspective_projection",
+  "command": "/usr/bin/cc -DRESOURCE_DIR=\\\"/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/3d_math/06_perspective_projection/res/\\\" -I/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/build/_deps/glfw-src/include -I/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals -isystem /home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/wgpu -g -o CMakeFiles/webgpu-perspective-projection-step-1-fudge-factor.dir/webgpu-perspective-projection-step-1-fudge-factor.c.o -c /home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/3d_math/06_perspective_projection/webgpu-perspective-projection-step-1-fudge-factor.c",
+  "file": "/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/3d_math/06_perspective_projection/webgpu-perspective-projection-step-1-fudge-factor.c"
+},
+{
+  "directory": "/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/build/3d_math/06_perspective_projection",
+  "command": "/usr/bin/cc -DRESOURCE_DIR=\\\"/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/3d_math/06_perspective_projection/res/\\\" -I/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/build/_deps/glfw-src/include -I/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals -isystem /home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/wgpu -g -o CMakeFiles/webgpu-perspective-projection-step-2-gpu-divide-by-w.dir/webgpu-perspective-projection-step-2-gpu-divide-by-w.c.o -c /home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/3d_math/06_perspective_projection/webgpu-perspective-projection-step-2-gpu-divide-by-w.c",
+  "file": "/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/3d_math/06_perspective_projection/webgpu-perspective-projection-step-2-gpu-divide-by-w.c"
+},
+{
+  "directory": "/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/build/3d_math/06_perspective_projection",
+  "command": "/usr/bin/cc -DRESOURCE_DIR=\\\"/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/3d_math/06_perspective_projection/res/\\\" -I/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/build/_deps/glfw-src/include -I/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals -isystem /home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/wgpu -g -o CMakeFiles/webgpu-perspective-projection-step-3-perspective-z-to-w.dir/webgpu-perspective-projection-step-3-perspective-z-to-w.c.o -c /home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/3d_math/06_perspective_projection/webgpu-perspective-projection-step-3-perspective-z-to-w.c",
+  "file": "/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/3d_math/06_perspective_projection/webgpu-perspective-projection-step-3-perspective-z-to-w.c"
+},
+{
+  "directory": "/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/build/3d_math/06_perspective_projection",
+  "command": "/usr/bin/cc -DRESOURCE_DIR=\\\"/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/3d_math/06_perspective_projection/res/\\\" -I/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/build/_deps/glfw-src/include -I/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals -isystem /home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/wgpu -g -o CMakeFiles/webgpu-perspective-projection-step-4-perspective.dir/webgpu-perspective-projection-step-4-perspective.c.o -c /home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/3d_math/06_perspective_projection/webgpu-perspective-projection-step-4-perspective.c",
+  "file": "/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/3d_math/06_perspective_projection/webgpu-perspective-projection-step-4-perspective.c"
+},
+{
+  "directory": "/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/build/3d_math/07_cameras",
+  "command": "/usr/bin/cc -DRESOURCE_DIR=\\\"/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/3d_math/07_cameras/res/\\\" -I/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/build/_deps/glfw-src/include -I/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals -isystem /home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/wgpu -g -o CMakeFiles/webgpu-cameras-step-1-direct-math.dir/webgpu-cameras-step-1-direct-math.c.o -c /home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/3d_math/07_cameras/webgpu-cameras-step-1-direct-math.c",
+  "file": "/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/3d_math/07_cameras/webgpu-cameras-step-1-direct-math.c"
+},
+{
+  "directory": "/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/build/3d_math/07_cameras",
+  "command": "/usr/bin/cc -DRESOURCE_DIR=\\\"/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/3d_math/07_cameras/res/\\\" -I/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/build/_deps/glfw-src/include -I/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals -isystem /home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/wgpu -g -o CMakeFiles/webgpu-cameras-step-2-camera-aim.dir/webgpu-cameras-step-2-camera-aim.c.o -c /home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/3d_math/07_cameras/webgpu-cameras-step-2-camera-aim.c",
+  "file": "/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/3d_math/07_cameras/webgpu-cameras-step-2-camera-aim.c"
+},
+{
+  "directory": "/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/build/3d_math/07_cameras",
+  "command": "/usr/bin/cc -DRESOURCE_DIR=\\\"/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/3d_math/07_cameras/res/\\\" -I/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/build/_deps/glfw-src/include -I/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals -isystem /home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/wgpu -g -o CMakeFiles/webgpu-cameras-step-3-look-at.dir/webgpu-cameras-step-3-look-at.c.o -c /home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/3d_math/07_cameras/webgpu-cameras-step-3-look-at.c",
+  "file": "/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/3d_math/07_cameras/webgpu-cameras-step-3-look-at.c"
+},
+{
+  "directory": "/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/build/3d_math/07_cameras",
+  "command": "/usr/bin/cc -DRESOURCE_DIR=\\\"/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/3d_math/07_cameras/res/\\\" -I/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/build/_deps/glfw-src/include -I/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals -isystem /home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/wgpu -g -o CMakeFiles/webgpu-cameras-step-4-aim-Fs.dir/webgpu-cameras-step-4-aim-Fs.c.o -c /home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/3d_math/07_cameras/webgpu-cameras-step-4-aim-Fs.c",
+  "file": "/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/3d_math/07_cameras/webgpu-cameras-step-4-aim-Fs.c"
+},
+{
+  "directory": "/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/build/compute_shaders/01_compute_shaders_basics",
+  "command": "/usr/bin/cc -DRESOURCE_DIR=\\\"/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/basics/01_fundamentals/res/\\\" -I/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/build/_deps/glfw-src/include -I/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals -isystem /home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/wgpu -g -o CMakeFiles/webgpu-compute-shaders-builtins.dir/webgpu-compute-shaders-builtins.c.o -c /home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/compute_shaders/01_compute_shaders_basics/webgpu-compute-shaders-builtins.c",
+  "file": "/home/bobajeff/projects/webgpu_native_exp/webgpu_fundamentals/compute_shaders/01_compute_shaders_basics/webgpu-compute-shaders-builtins.c"
 }
 ]
