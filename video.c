@@ -10,16 +10,6 @@
 #include <libavfilter/buffersrc.h>
 #include <libavutil/opt.h>
 #include "video.h"
-// hack in order to get cmake to link against local swscale swresample libraries
-#include <libswresample/swresample.h>
-#include <libswscale/swscale.h>
-void __cmake_hack_(){
-    SwsVector *a;
-    double scalar;
-    sws_scaleVec(a, scalar);
-    struct SwrContext *s;
-    swr_init(s);
-}
 
 void* video_playback(void* vdata)
 {

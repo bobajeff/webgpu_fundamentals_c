@@ -5,6 +5,7 @@
 #include <libavfilter/buffersink.h>
 #include <libavformat/avformat.h>
 #include <pthread.h>
+#include <libavcodec/avcodec.h>
 
 typedef struct video_data {
     AVFormatContext *fmt_ctx;

@@ -17,7 +17,23 @@ endif()
 include(FetchContent)
 
 #--------------FFMPEG
-include(ffmpeg.cmake)
+find_package(PkgConfig)
+pkg_check_modules(FFMPEG IMPORTED_TARGET
+    libavfilter
+    libavformat
+    libavcodec
+    libswresample
+    libswscale
+    libavutil
+)
+
+if(FFMPEG_FOUND)
+  add_library(video
+  video.c
+  )
+  target_link_libraries(video PRIVATE avcodec avutil avformat swscale swresample avfilter)
+  target_include_directories(video PRIVATE ${CMAKE_SOURCE_DIR})
+endif()
 
 #--------------GLFW
 FetchContent_Declare(

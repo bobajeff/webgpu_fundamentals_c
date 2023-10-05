@@ -11,7 +11,7 @@ Unlike the guide I did not use any GUI library (too complicated). Instead I buil
 Also, at this time I have not verified if my results match the guides since none of my browsers support webgpu on my hardware yet. I would not be surprised if at least a few of them are off somehow.
 
 ## works on my machine...
-The code has been tested on Linux Mint 21.1 with this binary release of [wgpu](https://github.com/gfx-rs/wgpu-native/releases/tag/v0.17.0.2) with this revision of [glfw](https://github.com/glfw/glfw/tree/3eaf1255b29fdf5c2895856c7be7d7185ef2b241) with this revision of [cglm](https://github.com/recp/cglm/tree/509078817c1917867fde87ab9c3ade6ae12a4f48) and this build for [ffmpeg](https://github.com/BtbN/FFmpeg-Builds/releases/tag/autobuild-2023-07-31-12-50) (only one example uses it if present). I hope it works on other machines though 😁.
+The code has been tested on Linux Mint 21.1 and Kubuntu 23.04 with this binary release of [wgpu](https://github.com/gfx-rs/wgpu-native/releases/tag/v0.17.0.2) with this revision of [glfw](https://github.com/glfw/glfw/tree/3eaf1255b29fdf5c2895856c7be7d7185ef2b241) with this revision of [cglm](https://github.com/recp/cglm/tree/509078817c1917867fde87ab9c3ade6ae12a4f48) and kubuntu's build of [ffmpeg](https://launchpad.net/ubuntu/+source/ffmpeg/7:5.1.2-3ubuntu1) (only one example uses it if present). I hope it works on other machines though 😁.
 
 ## building
 ### get the source
@@ -24,9 +24,8 @@ git clone git@github.com:bobajeff/webgpu_fundamentals_c.git
     * extract in source directory 
     * rename folder to `wgpu`
 * ffmpeg (optional)
-    * Download [ffmpeg build](https://github.com/BtbN/FFmpeg-Builds/releases) - **IMPORTANT: make sure to get one that has 'shared' in the name.** (eg. ffmpeg-N-111661-g567e78b283-linux64-lgpl-shared.tar.xz)
-    * extract in source directory
-    * rename folder to `ffmpeg`
+    get the ffmpeg libraries for your system for ubuntu based systems the command is: `sudo apt-get install pkg-config libavdevice-dev libavfilter-dev libavformat-dev`
+
 
 ### build the project
 In source directory run:
