@@ -25,7 +25,7 @@ git clone git@github.com:bobajeff/webgpu_fundamentals_c.git
     * extract in source directory 
     * rename folder to `wgpu`
 * ffmpeg (optional - only one example uses it)
-    get the ffmpeg libraries for your system for ubuntu based systems the command is: `sudo apt-get install pkg-config libavdevice-dev libavfilter-dev libavformat-dev`
+    * get the ffmpeg libraries for your system. For ubuntu based systems the command is: `sudo apt-get install pkg-config libavdevice-dev libavfilter-dev libavformat-dev`
 
 
 ### build the project
