@@ -39,6 +39,7 @@ endif()
 FetchContent_Declare(
         glfw
         GIT_REPOSITORY https://github.com/glfw/glfw
+        GIT_TAG        73948e6c0f15b1053cf74b7c4e6b04fd36e97e29
 )
 FetchContent_MakeAvailable(glfw)
 
